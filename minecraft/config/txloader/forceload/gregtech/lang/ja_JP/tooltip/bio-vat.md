@@ -1,0 +1,9 @@
+高度なバイオプロセス！
+本体に{color_key:培養体}を入れて細菌を設定します
+{hr}
+一部のレシピは{bold:{green:{lang:tooltip.bw.structure.radio_hatch}}}からの{green:放}{dark_green:射}{green:線}を必要とします
+放射線は最低値の条件の場合と、正確な値の条件の場合があります
+{green:{lang:tooltip.bw.structure.radio_hatch}}は{color_name:機械コントローラーカバー}で切り替えられます
+{hr}
+{color_efficiency:効率}は{color_name:出力ハッチ}の液体量に依存し、{color_efficiency:容量の50%}で最大になります
+入出力の{bold:液体}量を最大{color_efficiency:{var:eff_mult}倍}まで増やします

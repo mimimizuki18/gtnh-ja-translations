@@ -1,0 +1,1 @@
+{color_steam:蒸気}を{color_cold:蒸留水}に戻します

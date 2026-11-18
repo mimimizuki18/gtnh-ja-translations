@@ -1,0 +1,2 @@
+{EU}と{color_key:Thaumcraftのノード}を使ってThaumcraftの研究メモを完成させます
+ノードは中央の列に置いてください

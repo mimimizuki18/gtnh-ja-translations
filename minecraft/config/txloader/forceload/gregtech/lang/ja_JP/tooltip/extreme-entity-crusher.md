@@ -1,0 +1,20 @@
+モンスターをスポーンさせて倒してくれます！
+1回の処理につき{green:{var:xp_per_op} 液体経験値}を生成します
+{color_key:電動スポナー}は本体のスロットに入れます
+{hr}
+最小レシピ時間は{color_amount:{var:min_time}}tickで、それ以上のオーバークロックは出力を{color_amount:{var:oc_mult}倍}にします
+レシピ時間はモブの体力に基づきます
+GUIに武器を追加で入れることもできます
+処理が速くなり、武器のドロップ増加レベルが適用されます（最大{green:{var:max_looting}}レベル）
+{color_danger:構造内のスパイクにエンチャントしても効果はありません！}
+{hr}
+モブが{color_danger:インファーナル}としてスポーンすると、{color_amount:{var:infernal_mult}倍}の電力を消費します！
+{hr}
+{color_mode:儀式モード}では、上に建てた{color_name:苦痛の井戸}の儀式とリンクします
+儀式のマスターストーンは真上の中央、{color_name:血の祭壇}から縦{color_range:10}ブロック・横{color_range:5}ブロック以内に置く必要があります
+リンク中は儀式の所要時間が固定され、リンクした祭壇に血が加えられます
+{hr}
+{color_name:ドライバー}で本体を右クリックすると{color_mode:儀式モード}を切り替えます
+{color_name:ドライバー}で本体をシフト右クリックすると{color_mode:インファーナルのスポーン}を切り替えます
+{color_name:はんだごて}で本体を右クリックすると{color_mode:モブのアニメーション}を切り替えます
+{color_mechanic:4/4のパーフェクトオーバークロックを行います}

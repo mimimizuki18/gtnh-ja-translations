@@ -1,0 +1,8 @@
+マルチブロック用のアイテム/液体入力
+中身は常にほかのバス/ハッチと分離されます
+プログラミングカバーの機能を内蔵
+バッファ: {bufferNum}
+各バッファ:
+容量: {cap}L{mMultiFluid?} ×{fluidSlots}種類の液体{mMultiFluid:}{mMultiFluid!}
+{slots}スロット
+スロットの最大スタック数:{stacksize}

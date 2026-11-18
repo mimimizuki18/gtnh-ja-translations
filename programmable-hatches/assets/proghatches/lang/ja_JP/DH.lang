@@ -1,0 +1,6 @@
+マルチブロック用のアイテム/液体入力
+中身は常にほかのバス/ハッチと分離されます
+プログラミングカバーの機能を内蔵
+容量: {cap}L{mMultiFluid?} ×{fluidSlots}種類の液体{mMultiFluid:}{mMultiFluid!}
+{slots}スロット
+MEインターフェースはアイテムの最大スタック数に制限されず、最大{stackLimit}個まで積み重ねられます

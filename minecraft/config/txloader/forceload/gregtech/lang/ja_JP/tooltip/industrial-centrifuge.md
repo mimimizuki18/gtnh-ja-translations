@@ -1,0 +1,9 @@
+{color_name:電圧}Tierごとに並列処理数{color_parallel:{var:base_parallels}}-{color_parallel:{var:max_parallels}}
+速度{color_speed:{var:min_speed}}-{color_speed:{var:max_speed}%}
+{EU}使用量{color_efficiency:{var:eu_eff}%}
+{hr}
+{color_parallel:並列処理数}と{color_speed:速度}はどちらも機械の{color_mechanic:勢い}に応じて変わります
+勢いは稼働中に毎秒{color_mechanic:{var:momentum_gain}%}ずつ増加し（最大{color_mechanic:{var:momentum_max}%}）、
+停止中は毎秒{color_mechanic:{var:momentum_decay}%}ずつ減少します
+{hr}
+{color_name:ドライバー}でアニメーションを無効にできます

@@ -1,0 +1,11 @@
+ggfab.tt.advassline.structure.controller=最初のスライス、3段目
+ggfab.tt.advassline.structure.data_access_location=最初のスライス以外の任意の格子マシン外装
+ggfab.tt.advassline.structure.energy_location=4段目の任意の外装
+ggfab.tt.advassline.structure.layer1_side_casing=1段目の任意の側面外装
+ggfab.tt.advassline.structure.input_bus_location=各スライスの底面中央
+ggfab.tt.advassline.structure.output_bus_location=最後のスライスの1段目の任意の外装
+ggfab.tt.advassline.structure.layer4=§f4段目: §7空き、頑丈な鋼鉄製マシン外装、空き
+ggfab.tt.advassline.structure.layer3=§f3段目: §7格子マシン外装、組立機マシン外装、格子マシン外装
+ggfab.tt.advassline.structure.layer2=§f2段目: §7任意のTier付きガラス、組立ライン外装、任意のTier付きガラス
+ggfab.tt.advassline.structure.layer1=§f1段目: §7頑丈な鋼鉄製マシン外装、入力バス、頑丈な鋼鉄製マシン外装
+ggfab.tt.advassline.structure.footer=スライスは合計16個まで。1つごとにレシピのアイテムを1つ多く扱えます

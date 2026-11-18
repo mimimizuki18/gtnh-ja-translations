@@ -1,0 +1,1944 @@
+#Creative Tab Name
+itemGroup.TecTech=TecTech 異次元
+itemGroup.EM=TecTech 元素物質
+
+#Blocks
+tile.quantumStuff.name=量子物質
+tile.Eye of Harmony Renderer.name=アイ・オブ・ハーモニーレンダリング用アイテム
+
+tile.quantumGlass.name=量子ガラス
+tile.quantumGlass.desc.0=高密度なのに透明
+tile.quantumGlass.desc.1=ガラスのように上品
+
+tile.spatiallyTranscendentGravitationalLens.name=空間超越重力レンズブロック
+tile.godforgeGlass.desc.0=文字通りの重力レンズ
+tile.godforgeGlass.desc.1=重力レンズ 9000!
+
+tile.reactorSim.name=原子炉シミュレーター
+tile.reactorSim.desc.0=核分裂反応不確定性解消装置9001
+tile.reactorSim.desc.1=爆発するけど、それほどでもない...
+
+gt.spacetime_compression_field_generator.name=時空圧縮場生成器
+gt.time_acceleration_field_generator.name=時間遅延場生成器
+gt.stabilisation_field_generator.name=安定化場生成器
+
+tile.Forge of the Gods Renderer.name=神々のフォージのレンダラー
+
+#Items
+item.em.programmer.name=AVRプログラマー
+item.em.programmer.desc.0=現在のPC
+item.em.programmer.desc.1=覚醒
+item.em.programmer.desc.2=アクティブ
+item.em.programmer.desc.3=デバッグ
+item.em.programmer.desc.4=遅延
+
+item.em.debugContainer.name=デバッグ用EMコンテナ
+item.em.debugContainer.desc.0=内容物
+item.em.debugContainer.desc.1=元素物質用のコンテナ
+item.em.debugContainer.desc.2=元素ハッチを右クリック
+item.em.debugContainer.desc.3=---予期しない終了---
+
+item.em.definitionContainer.name=EMレシピのヒント
+item.em.definitionContainer.desc.0=含むべきもの
+item.em.definitionContainer.desc.1=レシピのヒント
+item.em.definitionContainer.desc.2=---予期しない終了---
+
+item.em.definitionScanStorage.name=EMスキャンストレージ
+item.em.definitionScanStorage.desc.0=スキャン結果を含む
+item.em.definitionScanStorage.desc.1=使用して読み取る
+item.em.definitionScanStorage.desc.2=物質スキャンデータの保管庫
+item.em.definitionScanStorage.desc.3=---予期しない終了---
+
+item.em.constructable.name=マルチブロック機械の設計図
+item.em.constructable.desc.0=建築インターフェースを起動します
+item.em.constructable.desc.1=マルチブロックの建築の詳細を表示します。
+item.em.constructable.desc.2=マルチブロックの本体に使うだけです。
+item.em.constructable.desc.3=（クリエイティブでスニークしながら使うと建築）
+item.em.constructable.desc.4=個数でTier/モード/種類が変わります
+
+item.em.EuMeterGT.name=GT-EU計測器
+item.em.EuMeterGT.desc.0=基本的なEU関連の情報を計測する
+item.em.EuMeterGT.desc.1=タイルに対し右クリックして使用します
+
+item.em.frontRotate.name=正面回転スクレンチ
+item.em.frontRotate.desc.0=正面回転インターフェースを起動します
+item.em.frontRotate.desc.1=正面パネルだけを回転させ、
+item.em.frontRotate.desc.2=構造の回転を可能にします。
+
+item.em.parametrizerMemoryCard.name=パラメータ－用メモリーカード
+item.em.parametrizerMemoryCard.name.paste=パラメータ－用メモリーカード (ペーストモード)
+item.em.parametrizerMemoryCard.name.copy=パラメータ－用メモリーカード (コピーモード)
+item.em.parametrizerMemoryCard.desc.0=パラメータを保存します
+item.em.parametrizerMemoryCard.desc.1=マルチブロックの本体に使うと設定を適用します
+item.em.parametrizerMemoryCard.desc.2=マルチブロックの本体に使うとパラメータを保存します
+item.em.parametrizerMemoryCard.desc.3=スニーク+右クリックでロック/ロック解除
+item.em.parametrizerMemoryCard.desc.copied_controller=コピー元: %s（%s）
+item.em.parametrizerMemoryCard.copyMessage=設定をカードにコピーしました
+item.em.parametrizerMemoryCard.pasteMessage=カードから設定を貼り付けました
+item.em.parametrizerMemoryCard.controllerMismatch=%sの設定を%sには貼り付けられません！
+item.em.parametrizerMemoryCard.noConfig=空のカードからは貼り付けられません！
+item.em.parametrizerMemoryCard.whitelist=ホワイトリスト
+item.em.parametrizerMemoryCard.blacklist=ブラックリスト
+
+item.tm.teslaCoilCapacitor.name=テスラキャパシター
+item.tm.teslaCoilCapacitor.0.name=LVテスラキャパシター
+item.tm.teslaCoilCapacitor.1.name=MVテスラキャパシター
+item.tm.teslaCoilCapacitor.2.name=HVテスラキャパシター
+item.tm.teslaCoilCapacitor.3.name=EVテスラキャパシター
+item.tm.teslaCoilCapacitor.4.name=IVテスラキャパシター
+item.tm.teslaCoilCapacitor.5.name=LuVテスラキャパシター
+item.tm.teslaCoilCapacitor.6.name=ZPMテスラキャパシター
+item.tm.teslaCoilCapacitor.desc.0=蓄電量
+item.tm.teslaCoilCapacitor.desc.1=テスラタワーでのEU:
+item.tm.teslaCoilCapacitor.desc.2=この壊れたアイテムは刺激的な水にぶん投げよう！
+item.tm.teslaCoilCapacitor.desc.3=テスラタワーのキャパシターハッチに入れます
+item.tm.teslaCoilCapacitor.desc.4=キャパシターってバッテリーと同じものだよね？
+
+item.tm.itemTeslaComponent.name=テスラ巻線
+item.tm.itemTeslaComponent.0.name=エレクトラムテスラ巻線
+item.tm.itemTeslaComponent.1.name=超電導テスラ巻線
+item.tm.itemTeslaComponent.desc=テスラ野郎にはこれが必要！
+
+item.tm.teslaCover.name=テスラコイルカバー
+item.tm.teslaCover.0.name=テスラコイルカバー
+item.tm.teslaCover.1.name=高級テスラコイルカバー
+item.tm.teslaCover.desc.0=機械をテスラ対応に！
+item.tm.teslaCover.desc.1=機械をテスラ対応に！（しかもうるさい！！）
+item.tm.teslaCover.desc.2=この壊れたアイテムは刺激的な水にぶん投げよう！
+item.tm.teslaCover.desc.3=機械の上面に使うとテスラ機能が有効になります
+item.tm.teslaCover.desc.4=そもそもケーブルなんて誰が使うの？
+
+item.tm.teslaStaff.name=テスラの杖
+item.tm.teslaStaff.desc=神々の力を、定命の者の気まぐれで！
+
+item.tm.enderfluidlinkcover.name=エンダー流体リンクカバー
+item.tm.enderfluidlinkcover.desc.0=機械をエンダー液体対応に！
+item.tm.enderfluidlinkcover.desc.1=液体タンクの任意の面に使うとエンダーにリンクします
+item.tm.enderfluidlinkcover.desc.2=エンダータンクはラグいからね -NHのイケてる面々のBotより
+
+item.tm.powerpassupgradecover.name=パワーパスアップグレードカバー
+item.tm.powerpassupgradecover.desc.0=TecTechのマルチブロックに電力パススルー機能を追加します
+item.tm.powerpassupgradecover.desc.1=缶入りのアクティブ変圧器？？
+item.tm.powerpassupgradecover.desc.2=クリスマスのライトみたいに数珠つなぎに！
+
+item.tm.itemAstralArrayFabricator.name=アストラルアレイ製造機
+item.tm.itemAstralArrayFabricator.desc0=並行次元？！
+item.tm.itemAstralArrayFabricator.desc1=調和の眼の空間圧縮を強化し、
+item.tm.itemAstralArrayFabricator.desc2=彼方の空間へ手を伸ばす装置。
+item.tm.itemAstralArrayFabricator.desc3=レシピの並列処理を可能にします。
+
+item.tm.fakeItemQGP.name=偽のアイテム
+
+#Death Messages
+death.attack.microwaving=%1$sは放射線に起因する脱水症状に陥った
+death.attack.microwaving.player=%1$sは%2$sとの戦闘中に放射線で脱水症状を引き起こした。
+death.attack.elementalPollution=%1$sは間違った穴でベイプした
+death.attack.elementalPollution.player=%1$sは%2$sとの戦闘中に間違った穴でベイプした
+death.attack.subspace=%1$sはn次元に渡る不快感を覚えた
+death.attack.subspace.player=%1$sは%2$sとの戦闘中にn次元に渡る不快感を覚えた
+
+#Transformers
+
+#Hatches
+tt.base.emhatch.desc.0=最大スタック数:
+tt.base.emhatch.desc.1=スタック容量:
+tt.base.emhatch.desc.2=オーバーフローハッチを後ろ、上、または下に置くと、
+tt.base.emhatch.desc.3=このブロックがマルチブロックに接続されていない間
+tt.base.emhatch.desc.4=オーバーフロー保護になります。
+tt.base.emhatch.desc.5=量子トンネルを使うと、輸送範囲を一直線に
+tt.base.emhatch.desc.6=最大15ブロックまで延ばせます。
+tt.base.emhatch.desc.7=動作させるには塗装が必要です
+
+gt.blockmachines.hatch.emmuffler.tier.08.name=オーバーフロー出力ハッチ (UV)
+gt.blockmachines.hatch.emmuffler.tier.09.name=オーバーフロー出力ハッチ (UHV)
+gt.blockmachines.hatch.emmuffler.tier.10.name=オーバーフロー出力ハッチ (UEV)
+gt.blockmachines.hatch.emmuffler.tier.11.name=オーバーフロー出力ハッチ (UIV)
+gt.blockmachines.hatch.emmuffler.tier.12.name=オーバーフロー出力ハッチ (UMV)
+gt.blockmachines.hatch.emmuffler.tier.13.name=オーバーフロー出力ハッチ (UXV)
+gt.blockmachines.hatch.emmuffler.desc.0=余分な元素物質を処分します
+gt.blockmachines.hatch.emmuffler.desc.1=質量容量
+gt.blockmachines.hatch.emmuffler.desc.2=処分速度
+gt.blockmachines.hatch.emmuffler.desc.3=§nブロックで塞がないようにしてください！§r
+
+gt.blockmachines.hatch.energymulti.name=%2$sアンペアエネルギーハッチ (%1$s)
+gt.blockmachines.hatch.energywirelessmulti.name=%1$s %2$sA 無線エネルギーハッチ
+gt.blockmachines.hatch.dynamomulti.name=%2$sアンペアダイナモハッチ (%1$s)
+gt.blockmachines.hatch.energytunnel.name=%1$s %2$sA レーザーターゲットハッチ
+gt.blockmachines.hatch.dynamotunnel.name=%1$s %2$sA レーザーソースハッチ
+gt.blockmachines.hatch.energymulti.desc=マルチブロック用のマルチアンペアエネルギー注入器\nエネルギーネットワークから最大%dアンペアを受け付けます\nマルチブロックに最大%dアンペアを供給します
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04=4アンペア無線エネルギーハッチ (EV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04=16アンペア無線エネルギーハッチ (EV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.04=64アンペア無線エネルギーハッチ (EV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.05=4アンペア無線エネルギーハッチ (IV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.05=16アンペア無線エネルギーハッチ (IV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.05=64アンペア無線エネルギーハッチ (IV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.06=4アンペア無線エネルギーハッチ (LuV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.06=16アンペア無線エネルギーハッチ (LuV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.06=64アンペア無線エネルギーハッチ (LuV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.07=4アンペア無線エネルギーハッチ (ZPM)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.07=16アンペア無線エネルギーハッチ (ZPM)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.07=64アンペア無線エネルギーハッチ (ZPM)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.08=4アンペア無線エネルギーハッチ (UV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.08=16アンペア無線エネルギーハッチ (UV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.08=64アンペア無線エネルギーハッチ (UV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.09=4アンペア無線エネルギーハッチ (UHV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.09=16アンペア無線エネルギーハッチ (UHV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.09=64アンペア無線エネルギーハッチ (UHV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.10=4アンペア無線エネルギーハッチ (UEV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.10=16アンペア無線エネルギーハッチ (UEV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.10=64アンペア無線エネルギーハッチ (UEV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.11=4アンペア無線エネルギーハッチ (UIV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.11=16アンペア無線エネルギーハッチ (UIV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.11=64アンペア無線エネルギーハッチ (UIV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.12=4アンペア無線エネルギーハッチ (UMV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.12=16アンペア無線エネルギーハッチ (UMV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.12=64アンペア無線エネルギーハッチ (UMV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.13=4アンペア無線エネルギーハッチ (UXV)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.13=16アンペア無線エネルギーハッチ (UXV)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.13=64アンペア無線エネルギーハッチ (UXV)
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.14=4アンペア無線エネルギーハッチ (MAX)
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.14=16アンペア無線エネルギーハッチ (MAX)
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.14=64アンペア無線エネルギーハッチ (MAX)
+
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.04.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.05.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.05.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.05.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.06.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.06.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.06.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.07.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.07.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.07.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.08.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.08.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.08.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.09.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.09.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.09.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.10.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.10.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.10.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.11.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.11.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.11.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.12.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.12.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.12.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.13.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.13.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.13.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.14.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.14.desc=マルチアンペアのワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.14.desc=マルチアンペアのワイヤレスエネルギー！
+
+
+achievement.gt.blockmachines.hatch.energywirelesstunnel1.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel2.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel3.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel4.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel5.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel6.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+achievement.gt.blockmachines.hatch.energywirelesstunnel7.tier.13.desc=ついに大電流のワイヤレスエネルギー！
+
+gt.blockmachines.hatch.energytunnel.tier.14.name=伝説のレーザーターゲットハッチ
+gt.blockmachines.hatch.energytunnel.desc=マルチブロック用のエネルギー注入端子
+
+gt.blockmachines.hatch.dynamomulti.desc=マルチブロック用のマルチアンペアエネルギー抽出器
+
+gt.blockmachines.hatch.dynamotunnel.tier.14.name=伝説のレーザーソースハッチ
+gt.blockmachines.hatch.dynamotunnel.desc=マルチブロック用のエネルギー抽出端子
+gt.blockmachines.hatch.screwdrivertooltip=ドライバーでアンペア数を調整します
+
+gt.blockmachines.emin.tier.08.name=エレメンタル入力ハッチ (UV)
+gt.blockmachines.emin.tier.09.name=エレメンタル入力ハッチ (UHV)
+gt.blockmachines.emin.tier.10.name=エレメンタル入力ハッチ (UEV)
+gt.blockmachines.emin.tier.11.name=エレメンタル入力ハッチ (UIV)
+gt.blockmachines.emin.tier.12.name=エレメンタル入力ハッチ (UMV)
+gt.blockmachines.emin.tier.13.name=エレメンタル入力ハッチ (UXV)
+gt.blockmachines.emin.desc=マルチブロック用の元素入力
+
+gt.blockmachines.emout.tier.08.name=エレメンタル出力ハッチ (UV)
+gt.blockmachines.emout.tier.09.name=エレメンタル出力ハッチ (UHV)
+gt.blockmachines.emout.tier.10.name=エレメンタル出力ハッチ (UEV)
+gt.blockmachines.emout.tier.11.name=エレメンタル出力ハッチ (UIV)
+gt.blockmachines.emout.tier.12.name=エレメンタル出力ハッチ (UMV)
+gt.blockmachines.emout.tier.13.name=エレメンタル出力ハッチ (UXV)
+gt.blockmachines.emout.desc=マルチブロック用の元素出力
+
+#TODO change tier.05 to tier.04
+
+gt.blockmachines.hatch.certain.tier.05.name=不確定性解消器
+gt.blockmachines.hatch.certain.tier.07.name=不確定性解決器
+gt.blockmachines.hatch.certain.desc.0=確信は持てる?
+gt.blockmachines.hatch.certain.desc.1=シュレディンガー方程式は箱の中に
+gt.blockmachines.hatch.certain.desc.2=非推奨！不確定性解消器Xを使ってください
+
+gt.blockmachines.hatch.datain.tier.07.name=光受信コネクター
+gt.blockmachines.hatch.datain.desc.0=マルチブロック用の量子データ入力
+gt.blockmachines.hatch.datain.desc.1=高速光ファイバーコネクター。
+gt.blockmachines.hatch.datain.desc.2=動作させるには塗装が必要です
+
+gt.blockmachines.hatch.dataout.tier.07.name=光学送信コネクター
+gt.blockmachines.hatch.dataout.desc.0=マルチブロック用の量子データ出力
+gt.blockmachines.hatch.dataout.desc.1=高速光ファイバーコネクター。
+gt.blockmachines.hatch.dataout.desc.2=動作させるには塗装が必要です
+
+gt.blockmachines.hatch.datainass.tier.07.name=組立ライン受信コネクター
+gt.blockmachines.hatch.datainass.desc.0=マルチブロック用のアイテムスタックデータ入力
+gt.blockmachines.hatch.datainass.desc.1=高速光ファイバーコネクター。
+gt.blockmachines.hatch.datainass.desc.2=動作させるには塗装が必要です
+
+gt.blockmachines.hatch.datainasswireless.desc.0=マルチブロック用のワイヤレスなアイテムスタックデータ入力
+gt.blockmachines.hatch.datainasswireless.desc.1=高速インターネット接続
+
+gt.blockmachines.hatch.dataoutass.tier.07.name=データバンクマスターコネクター
+gt.blockmachines.hatch.dataoutass.desc.0=マルチブロック用のアイテムスタックデータ出力
+gt.blockmachines.hatch.dataoutass.desc.1=高速光ファイバーコネクター。
+gt.blockmachines.hatch.dataoutass.desc.2=動作させるには塗装が必要です
+
+gt.blockmachines.hatch.wirelessdataoutass.desc.0=マルチブロック用のワイヤレスなアイテムスタックデータ出力
+gt.blockmachines.hatch.wirelessdataoutass.desc.1=高速インターネット接続
+
+gt.blockmachines.hatch.rack.tier.08.name=コンピューターラック
+gt.blockmachines.hatch.rack.desc.0=4スロットのラック
+gt.blockmachines.hatch.rack.desc.1=コンピューター部品を収納します
+gt.blockmachines.hatch.rack.heat=熱: %s
+gt.blockmachines.hatch.holder.tier.09.name=オブジェクトホルダー
+gt.blockmachines.hatch.holder.desc.0=総合型研究装置用
+gt.blockmachines.hatch.holder.desc.1=高度な保持機構!
+gt.blockmachines.hatch.capacitor.tier.03.name=キャパシターハッチ
+gt.blockmachines.hatch.capacitor.desc.0=テスラタワー用
+gt.blockmachines.hatch.capacitor.desc.1=エネルギーを蓄えます！（しばらくの間）
+
+#Casings
+gt.godforgecasing.name=マシン外装
+gt.blockcasingsNH.10.name=UEVマシン外装
+gt.blockcasingsNH.11.name=UIVマシン外装
+gt.blockcasingsNH.12.name=UMVマシン外装
+gt.blockcasingsNH.13.name=UXVマシン外装
+gt.blockcasingsNH.14.name=MAXマシン外装
+
+gt.blockhintTT.desc.0=構造物の設置を助ける
+gt.blockhintTT.0.name=ヒント 1 ドット
+gt.blockhintTT.1.name=ヒント 2 ドット
+gt.blockhintTT.2.name=ヒント 3 ドット
+gt.blockhintTT.3.name=ヒント 4 ドット
+gt.blockhintTT.4.name=ヒント 5 ドット
+gt.blockhintTT.5.name=ヒント 6 ドット
+gt.blockhintTT.6.name=ヒント 7 ドット
+gt.blockhintTT.7.name=ヒント 8 ドット
+gt.blockhintTT.8.name=ヒント 9 ドット
+gt.blockhintTT.9.name=ヒント 10 ドット
+gt.blockhintTT.10.name=ヒント 11 ドット
+gt.blockhintTT.11.name=ヒント 12 ドット
+gt.blockhintTT.desc.1=特定の構造ブロックグループのプレースホルダー
+gt.blockhintTT.12.name=ヒントブロック
+gt.blockhintTT.desc.2=プレースホルダー
+gt.blockhintTT.13.name=ヒント 空気
+gt.blockhintTT.desc.3=空気が"設置"されていることを確認してください
+gt.blockhintTT.14.name=ヒント 非空気
+gt.blockhintTT.desc.4=空気が"設置"されていないことを確認してください
+gt.blockhintTT.15.name=ヒント Error
+gt.blockhintTT.desc.5=ERROR, なにを期待していた？
+
+gt.blockcasingsTT.name=マシン外装
+gt.blockcasingsTT.0.name=高出力外装
+gt.blockcasingsTT.0.desc.0=大電力の用途によく合います。
+gt.blockcasingsTT.0.desc.1=電力レベルが上昇中！
+gt.blockcasingsTT.1.name=コンピューター用外装
+gt.blockcasingsTT.1.desc.0=きれいで清潔な外装。
+gt.blockcasingsTT.1.desc.1=ホコリで壊れる！？
+gt.blockcasingsTT.2.name=コンピューター排熱口
+gt.blockcasingsTT.2.desc.0=フィルター付きの通気口。
+gt.blockcasingsTT.2.desc.1=音は完璧に抑えられています！
+gt.blockcasingsTT.3.name=発展型コンピューター用外装
+gt.blockcasingsTT.3.desc.0=数千キュービット幅の
+gt.blockcasingsTT.3.desc.1=高帯域バスを内蔵。
+gt.blockcasingsTT.4.name=分子外装
+gt.blockcasingsTT.4.desc.0=元素的なものを止めます。
+gt.blockcasingsTT.4.desc.1=放射線も、感情も...
+gt.blockcasingsTT.5.name=発展型分子外装
+gt.blockcasingsTT.5.desc.0=冷却と安定化。
+gt.blockcasingsTT.5.desc.1=機械のための快適なベッド。
+gt.blockcasingsTT.6.name=封じ込め場生成器
+gt.blockcasingsTT.6.desc.0=力を媒介する粒子さえ
+gt.blockcasingsTT.6.desc.1=止められる場を作ります。
+gt.blockcasingsTT.7.name=分子コイル
+gt.blockcasingsTT.7.desc.0=まあ、これもいろいろやります...
+gt.blockcasingsTT.7.desc.1=[このコイルを使って！]
+gt.blockcasingsTT.8.name=中空の外装
+gt.blockcasingsTT.8.desc.0=強化された加速器トンネル。
+gt.blockcasingsTT.8.desc.1=史上最も高度なパイプ。
+gt.blockcasingsTT.9.name=時空変容外装
+gt.blockcasingsTT.9.desc.0=光速はもはや限界ではない。
+gt.blockcasingsTT.9.desc.1=ぐにゃぐにゃ時間のあれこれ。
+gt.blockcasingsTT.10.name=テレポート外装
+gt.blockcasingsTT.10.desc.0=遠隔接続。
+gt.blockcasingsTT.10.desc.1=棒で触ったほうがいい。
+gt.blockcasingsTT.11.name=次元間ブリッジ生成器
+gt.blockcasingsTT.11.desc.0=次元間の運用。
+gt.blockcasingsTT.11.desc.1=宇宙を一周、ほかの場所にも。
+gt.blockcasingsTT.12.name=究極型分子外装
+gt.blockcasingsTT.12.desc.0=あらゆる面で究極。
+gt.blockcasingsTT.12.desc.1=これにできないことが思いつかない。
+gt.blockcasingsTT.13.name=発展究極型分子外装
+gt.blockcasingsTT.13.desc.0=あらゆる面でさらに究極。
+gt.blockcasingsTT.13.desc.1=自分が何をしているのかわからない！
+gt.blockcasingsTT.14.name=究極の封じ込め場生成器
+gt.blockcasingsTT.14.desc.0=ブラックホール...
+gt.blockcasingsTT.14.desc.1=Meh...
+gt.blockcasingsTT.15.name=デバッグ用の面表示
+gt.blockcasingsTT.15.desc.0=面を見分ける怠け者のやり方。
+gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
+gt.blockcasingsTT.default.desc.0=おいおい、それどこで手に入れたんだ！？
+gt.blockcasingsTT.default.desc.1=宇宙から...たぶん...
+
+gt.blockcasingsBA0.name=一次テスラ巻線
+gt.blockcasingsBA0.0.name=レッドストーン合金テスラ巻線
+gt.blockcasingsBA0.1.name=MV超伝導主要テスラ巻線
+gt.blockcasingsBA0.2.name=HV超伝導主要テスラ巻線
+gt.blockcasingsBA0.3.name=EV超伝導主要テスラ巻線
+gt.blockcasingsBA0.4.name=IV超伝導主要テスラ巻線
+gt.blockcasingsBA0.5.name=LuV超伝導主要テスラ巻線
+gt.blockcasingsBA0.9.name=ZPM超伝導主要テスラ巻線
+gt.blockcasingsBA0.0.desc.0=扱える上限:
+gt.blockcasingsBA0.0.desc.1=ある者が神と呼ぶものを、別の者は物理法則と呼ぶ。
+gt.blockcasingsBA0.6.name=テスラ基部外装
+gt.blockcasingsBA0.6.desc.0=驚くべき装置の土台
+gt.blockcasingsBA0.6.desc.1=生きてる、生きてるぞ！
+gt.blockcasingsBA0.7.name=テスラトロイド外装
+gt.blockcasingsBA0.7.desc.0=最高級のアルミホイル製！
+gt.blockcasingsBA0.7.desc.1=ファラデースーツはそのうち出るかも
+gt.blockcasingsBA0.8.name=テスラ二次巻線
+gt.blockcasingsBA0.8.desc.0=一次コイルから電力を受け取ります
+gt.blockcasingsBA0.8.desc.1=32kのエポキシマルチブロックなんて、誰だって欲しいでしょ？
+gt.blockcasingsBA0.10.name=強化時間構造外装
+gt.blockcasingsBA0.11.name=強化空間構造外装
+gt.blockcasingsBA0.12.name=無限時空エネルギー境界外装
+
+#Multiblocks
+gt.blockmachines.multimachine.em.transformer.name=アクティブ変圧器
+gt.blockmachines.multimachine.em.transformer.machinetype=アクティブ変圧器、AT
+
+gt.blockmachines.multimachine.tm.microwave.name=指向性マイクロ波兵器
+gt.blockmachines.multimachine.tm.microwave.cfgi.0=出力設定
+gt.blockmachines.multimachine.tm.microwave.cfgi.1=タイマー設定
+gt.blockmachines.multimachine.tm.microwave.cfgo.0=タイマーの値
+gt.blockmachines.multimachine.tm.microwave.cfgo.1=タイマーの残り
+
+gt.blockmachines.multimachine.tm.teslaCoil.name=テスラタワー
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=ヒステリシス下限
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=ヒステリシス上限
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=転送半径
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=テスラ送受信機の転送半径の設定
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=テスラアルティメットカバーの転送半径の設定
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=出力電圧
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=出力電流
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.7=スキャン時間の最小値の設定
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=オーバードライブ
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.9=未使用
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.0=テスラタワーの転送半径の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=テスラ送受信機の転送半径の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.2=テスラアルティメットカバーの転送半径の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.3=出力電圧の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.4=出力電流の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.5=エネルギー容量の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=蓄電量の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=エネルギー割合の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=スキャン時間の表示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大出力の表示
+gt.blockmachines.multimachine.tm.teslaCoil.outputVoltage=出力電圧:
+gt.blockmachines.multimachine.tm.teslaCoil.chartButtonTooltip=アンペア数の推移グラフを開く
+gt.blockmachines.multimachine.tm.teslaCoil.heatMapButtonTooltip=ヒートマップを開く
+gt.blockmachines.multimachine.tm.teslaCoil.powerPassAutomatic=電力パススルー（ヒステリシスで自動）
+
+gt.blockmachines.multimachine.em.switch.type=計算ネットワークスイッチ、CNS
+gt.blockmachines.multimachine.em.switch.name=QoS付き重み付けネットワークスイッチ
+gt.blockmachines.multimachine.em.switch.adv.name=QoS付き静的ネットワークスイッチ
+
+gt.blockmachines.multimachine.em.computer.name=量子コンピューター
+gt.blockmachines.multimachine.em.computer.machinetype=量子コンピューター、QC
+gt.blockmachines.multimachine.em.computer.desc=上の数を処理するのに必要です
+gt.blockmachines.multimachine.em.computer.cfgi.0=オーバークロック比率
+gt.blockmachines.multimachine.em.computer.cfgi.1=過電圧比率
+gt.blockmachines.multimachine.em.computer.cfgo.0=現在の最大熱
+gt.blockmachines.multimachine.em.computer.cfgo.1=生み出した計算量
+
+gt.blockmachines.multimachine.em.databank.name=データバンク
+gt.blockmachines.multimachine.em.databank.type=データバンク、DB
+
+gt.blockmachines.multimachine.em.junction.name=物質分岐装置
+gt.blockmachines.multimachine.em.junction.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.junction.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.junction.desc.0=物質分岐装置の本体ブロック
+gt.blockmachines.multimachine.em.junction.desc.1=元素物質を送り分配するために使う
+gt.blockmachines.multimachine.em.junction.desc.2=設定にはパラメトライザーが必要です
+
+gt.blockmachines.multimachine.em.mattertoem.name=物質量子化装置
+gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - エレメンタル出力ハッチ
+gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.mattertoem.desc.0=物質量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.mattertoem.desc.1=アイテムを元素単体に変換する
+
+gt.blockmachines.multimachine.em.emtomatter.name=物質逆量子化装置
+gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - エレメンタル入力ハッチ
+gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.emtomatter.desc.0=物質逆量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.emtomatter.desc.1=元素単体をアイテムに変換する
+
+gt.blockmachines.multimachine.em.emtoessentia.name=エッセンシア逆量子化装置
+gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - エレメンタル入力ハッチ
+gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - エレメンタルオーバーフローハッチ/元素外装
+gt.blockmachines.multimachine.em.emtoessentia.hint.3=一般 - エッセンシアストレージ
+gt.blockmachines.multimachine.em.emtoessentia.desc.0=エッセンシア逆量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.emtoessentia.desc.1=元素単体をエッセンシアに変換する
+
+gt.blockmachines.multimachine.em.essentiatoem.name=エッセンシア量子化装置
+gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - エレメンタル出力ハッチ
+gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - エレメンタルオーバーフローハッチ/元素外装
+gt.blockmachines.multimachine.em.essentiatoem.hint.3=一般 - エッセンシアストレージ
+gt.blockmachines.multimachine.em.essentiatoem.desc.0=エッセンシア量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.essentiatoem.desc.1=エッセンシアを元素単体に変換する
+
+gt.blockmachines.multimachine.em.scanner.name=元素スキャナー
+gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.scanner.hint.1=2 - エレメンタル入力ハッチ/分子外装
+gt.blockmachines.multimachine.em.scanner.hint.2=3 - エレメンタル出力ハッチ/分子外装
+gt.blockmachines.multimachine.em.scanner.hint.3=4 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.scanner.desc.0=元素スキャナーの本体ブロック
+
+gt.blockmachines.multimachine.em.research.type=研究ステーション、スキャナー
+gt.blockmachines.multimachine.em.research.mode.0=研究ステーション
+gt.blockmachines.multimachine.em.research.mode.1=スキャナー
+gt.blockmachines.multimachine.em.research.computation=計算量: %,d / %,d
+
+gt.blockmachines.multimachine.em.collider.name=物質衝突器
+gt.blockmachines.multimachine.em.collider.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.collider.hint.1=2 - エレメンタル入力ハッチ/分子外装
+gt.blockmachines.multimachine.em.collider.hint.2=3 - エレメンタル出力ハッチ/分子外装
+gt.blockmachines.multimachine.em.collider.hint.3=4 - 元素オーバーフローハッチまたは分子外装
+gt.blockmachines.multimachine.em.collider.hint.4=全般 - 反対向きのもう1つの本体
+gt.blockmachines.multimachine.em.collider.desc.0=物質衝突器の本体ブロック
+gt.blockmachines.multimachine.em.collider.desc.1=この機械が動くには、鏡写しにしたもう1台が必要です
+gt.blockmachines.multimachine.em.collider.desc.2=一方を「融合モード」、もう一方を「衝突モード」に設定する必要があります
+gt.blockmachines.multimachine.em.collider.desc.3=2つの元素物質を融合させて別のもの（と電力）を作ります
+gt.blockmachines.multimachine.em.collider.mode.0=モード: 融合
+gt.blockmachines.multimachine.em.collider.mode.1=モード: 衝突
+gt.blockmachines.multimachine.em.collider.mode.2=モード: 未定義
+gt.blockmachines.multimachine.em.collider.mode.3=現在従属中...
+gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=これを鏡写しにしたもう1台の物質衝突器が必要です
+
+gt.blockmachines.multimachine.em.infuser.name=エネルギー注入装置
+gt.blockmachines.multimachine.em.infuser.desc.0=エネルギー注入装置の本体ブロック
+gt.blockmachines.multimachine.em.infuser.desc.1=損失無しでアイテムの充電ができます
+gt.blockmachines.multimachine.em.infuser.desc.2=UU-マターを供給することでアイテムの修理ができます
+gt.blockmachines.multimachine.em.infuser.desc.3=ストッキングバスには対応していません
+gt.blockmachines.multimachine.em.infuser.Structure.HighPowerCasing=第1,5層
+gt.blockmachines.multimachine.em.infuser.Structure.MolecularCoil=第2,4層
+gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=第3層
+
+gt.blockmachines.multimachine.em.processing.name=量子処理機
+gt.blockmachines.multimachine.em.processing.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.processing.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.processing.desc.0=量子処理機の本体ブロック
+
+gt.blockmachines.multimachine.em.crafter.name=マターアセンブラー
+gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.crafter.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.crafter.desc.0=マターアセンブラーの本体ブロック
+
+gt.blockmachines.multimachine.em.stabilizer.name=元素安定器
+gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.stabilizer.desc.0=元素安定器の本体ブロック
+
+gt.blockmachines.multimachine.em.wormhole.name=Wormhole
+gt.blockmachines.multimachine.em.wormhole.desc.0=ワームホールの本体ブロック
+
+gt.blockmachines.multimachine.em.decay.name=崩壊発電機
+gt.blockmachines.multimachine.em.decay.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.decay.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.decay.desc.0=崩壊発電機の本体ブロック
+gt.blockmachines.multimachine.em.decay.desc.1=元素物質を崩壊させて発電します
+
+gt.blockmachines.multimachine.em.decay.conf=アンペアの除数
+
+gt.blockmachines.multimachine.em.annihilation.name=対消滅発電機
+gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.annihilation.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.annihilation.desc.0=対消滅発電機の本体ブロック
+
+gt.blockmachines.multimachine.em.blackholegenerator.name=ブラックホール発電機
+gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - エレメンタルハッチ/分子外装
+gt.blockmachines.multimachine.em.blackholegenerator.desc.0=ブラックホール発電機の本体ブロック
+gt.blockmachines.multimachine.em.blackholegenerator.desc.1=ブラックホールを使って発電します
+
+gt.blockmachines.pipe.energystream.block.name=レーザー真空パイプ外装
+gt.blockmachines.pipe.datastream.block.name=光ファイバーケーブル外装
+
+# Eye of Harmony
+achievement.gt.blockmachines.multimachine.em.eye_of_harmony=調和の眼の本体
+achievement.gt.blockcasingsBA0.12=無限時空エネルギー境界外装
+gt.blockcasingsBA0.12.desc.0=時空の領域間に安定した橋を架けます。
+achievement.gt.blockcasingsBA0.11=強化空間構造外装
+gt.blockcasingsBA0.11.desc.0=内部の体積膨張による空間のせん断に耐えるよう設計されています。
+gt.blockcasingsBA0.11.desc.1=少なくとも一度のビッグバンには耐えられます。二度かも...
+achievement.gt.blockcasingsBA0.10=強化時間構造外装
+gt.blockcasingsBA0.10.desc.0=時間の遅れの差による時間のせん断に耐えます。
+gt.blockcasingsBA0.10.desc.1=このブロックは劣化することなく永遠に持ちます。
+eoh.rightclick.wirecutter.1=機械の稼働中はアストラルアレイ製造機を回収できません！
+eoh.rightclick.wirecutter.2=アストラルアレイ製造機を%s個回収しました
+
+# Antimatter
+gt.blockmachines.antimatterForge.name=半安定反物質安定化シーケンサー
+gt.blockmachines.antimatterGenerator.name=遮蔽型ラグランジュ対消滅マトリクス
+
+achievement.gt.spacetime_compression_field_generator.0=粗製時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.1=原始的な時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.2=安定した時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.3=高度な時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.4=極上の時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.5=エキゾチックな時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.6=完璧な時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.7=ティプラー時空圧縮場生成器
+achievement.gt.spacetime_compression_field_generator.8=ガリフレイ時空圧縮場生成器
+
+achievement.gt.time_acceleration_field_generator.0=粗製時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.1=原始的な時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.2=安定した時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.3=高度な時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.4=極上の時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.5=エキゾチックな時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.6=完璧な時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.7=ティプラー時間遅延場生成器
+achievement.gt.time_acceleration_field_generator.8=ガリフレイ時間遅延場生成器
+
+achievement.gt.stabilisation_field_generator.0=粗製安定化場生成器
+achievement.gt.stabilisation_field_generator.1=原始的な安定化場生成器
+achievement.gt.stabilisation_field_generator.2=安定した安定化場生成器
+achievement.gt.stabilisation_field_generator.3=高度な安定化場生成器
+achievement.gt.stabilisation_field_generator.4=極上の安定化場生成器
+achievement.gt.stabilisation_field_generator.5=エキゾチックな安定化場生成器
+achievement.gt.stabilisation_field_generator.6=完璧な安定化場生成器
+achievement.gt.stabilisation_field_generator.7=ティプラー安定化場生成器
+achievement.gt.stabilisation_field_generator.8=ガリフレイ安定化場生成器
+
+# Forge of the Gods / Godforge
+fog.upgrade.confirm=建設
+fog.upgrade.respec=振り直し
+
+fog.upgrade.tt.0=神々のフォージ
+fog.upgrade.tt.1=改良型重力対流コイル
+fog.upgrade.tt.2=時空トポロジー拡張モジュレーター
+fog.upgrade.tt.3=宇宙燃料室の拡張
+fog.upgrade.tt.4=重力子誘起超伝導システム
+fog.upgrade.tt.5=流体力学統合モジュール
+fog.upgrade.tt.6=超光速増幅器
+fog.upgrade.tt.7=重力プラズマ封じ込めインダクター
+fog.upgrade.tt.8=相対論的電子キャパシター
+fog.upgrade.tt.9=重力子もつれモジュレーター
+fog.upgrade.tt.10=閉じた時間的曲線の破壊装置
+fog.upgrade.tt.11=クォークグルーオンプラズマ隔離ユニット
+fog.upgrade.tt.12=特異点曝露燃料圧縮プロセス
+fog.upgrade.tt.13=超限建築技術
+fog.upgrade.tt.14=重力誘導電子ビーム放射器
+fog.upgrade.tt.15=時間プラズマ変換プロセス
+fog.upgrade.tt.16=効力の二重性
+fog.upgrade.tt.17=臨界ニュートリノトンネル統合
+fog.upgrade.tt.18=極限パルサー曝露チャンバー
+fog.upgrade.tt.19=内部マイクロ・クーゲルブリッツ生成器
+fog.upgrade.tt.20=中性子縮退圧への曝露
+fog.upgrade.tt.21=特異点の等価性
+fog.upgrade.tt.22=希少性の格差
+fog.upgrade.tt.23=無重力変調シース
+fog.upgrade.tt.24=合成元素の崩壊安定化
+fog.upgrade.tt.25=逆説的な到達
+fog.upgrade.tt.26=宇宙的な複製
+fog.upgrade.tt.27=超限の恒星存在
+fog.upgrade.tt.28=果てしない流れ
+fog.upgrade.tt.29=努力なき存在
+fog.upgrade.tt.30=オリオン腕創世スキーマ
+fog.upgrade.tt.secret=秘密のアップグレード
+
+fog.upgrade.tt.short.0=START
+fog.upgrade.tt.short.1=IGCC
+fog.upgrade.tt.short.2=STEM
+fog.upgrade.tt.short.3=CFCE
+fog.upgrade.tt.short.4=GISS
+fog.upgrade.tt.short.5=FDIM
+fog.upgrade.tt.short.6=SA
+fog.upgrade.tt.short.7=GPCI
+fog.upgrade.tt.short.8=REC
+fog.upgrade.tt.short.9=GEM
+fog.upgrade.tt.short.10=CTCDD
+fog.upgrade.tt.short.11=QGPIU
+fog.upgrade.tt.short.12=SEFCP
+fog.upgrade.tt.short.13=TCT
+fog.upgrade.tt.short.14=GGEBE
+fog.upgrade.tt.short.15=TPTP
+fog.upgrade.tt.short.16=DoP
+fog.upgrade.tt.short.17=CNTI
+fog.upgrade.tt.short.18=EPEC
+fog.upgrade.tt.short.19=IMKG
+fog.upgrade.tt.short.20=NDPE
+fog.upgrade.tt.short.21=PoS
+fog.upgrade.tt.short.22=DoR
+fog.upgrade.tt.short.23=NGMS
+fog.upgrade.tt.short.24=SEDS
+fog.upgrade.tt.short.25=PA
+fog.upgrade.tt.short.26=CD
+fog.upgrade.tt.short.27=TSE
+fog.upgrade.tt.short.28=TBF
+fog.upgrade.tt.short.29=EE
+fog.upgrade.tt.short.30=END
+fog.upgrade.tt.short.secret=秘密
+
+fog.upgrade.lore.0=神々のフォージは、安定化した中性子星の周りに建造された途方もなく強力な構造物です。あまりに高度なため、その能力の全容はまだ解明されていません。しかし使い続けることで、フォージを少しずつアップグレードして能力の幅を広げ、宇宙の最も極限的な場所に隠された力、重力子の欠片について知ることができます。この秘教的な物質は、通常の物質と中性子星表面の縮退したニュートロニウム地殻物質が出会う場所でしか見つかりません。宇宙のこの地点では重力子がはるかに多く存在し、この物質の混合物を照射して非常に不安定な重力子の欠片を作り出します。これはフォージの内部アップグレードに使えます。この欠片はまだフォージの極限環境の外では存在できませんが、研究と活用を続ければ、いずれフォージの外へ隔離して取り出せるようになるかもしれません。しかし、何のために？
+fog.upgrade.lore.1=神々のフォージの最初の大きなアップグレードにより、重力子の欠片の重力的な歪曲効果のおかげで、熱が上がるほど処理速度が上がるようになりました。これは欠片の多くの応用の最初の一つにすぎず、フォージを使い続けることで他の応用も発見されていくでしょう。
+fog.upgrade.lore.2=重力子の欠片はフォージで使う燃料の表面積を歪め、燃料1単位あたりに処理できる物質を増やして効率を高めます。増え続けるフォージの需要を相殺するため、重力子の欠片はさらなる効率向上に欠かせないものとなるでしょう。
+fog.upgrade.lore.3=重力子の欠片を使うことでフォージの燃料室内の空間を広げ、より多くの燃料を燃やして、より高い温度に到達できるようになります。フォージの中心にある星を生かしておくための燃料を取っておくのを忘れずに。
+fog.upgrade.lore.4=重力子の欠片は物質だけでなくエネルギーにも影響します。恒星燃料の濃度が十分に高ければ、重力の力だけでフォージ内に超伝導が誘起されます。この重力子の欠片には、ほかにどんな性質があるのでしょう？
+fog.upgrade.lore.5=フォージを使い続けるうちに、重力子の欠片についてのデータが集まってきました。欠片はフォージの出力を安定させられることがわかり、星の中心近くにある溶融物質を直接取り出せるようになりました。
+fog.upgrade.lore.6=恒星燃料の消費が星の大きさとエネルギーを増し続けるにつれ、一度に処理できる物質の量も増えます。重力子の欠片は、フォージの中心にある星の近くで、より多くの物質を操作するのを助けます。
+fog.upgrade.lore.7=重力子の欠片の理解が進むにつれ、欠片が操る物質をよりうまく制御できるようになります。重力子の欠片は、プラズマの電磁的な封じ込めの代わりに時空操作を使う方法を提供し、フォージが処理した物質を直接プラズマとして出力できるようにします。
+fog.upgrade.lore.8=フォージの内部エネルギー貯蔵に重力子の欠片を加えると、より小さな領域により多くのエネルギーを蓄えられます。エネルギー密度を相対論的なレベルまで高めることで、電位が上がり続けるにつれてフォージをより効率的に動かせます。
+fog.upgrade.lore.9=燃料室に重力子の欠片をさらに加えるだけで、フォージがより多くの恒星燃料を消費する能力は増幅し続けます。フォージのまったく別の部分に投入した重力子の欠片からさえ恩恵を受けます。欠片は量子もつれのような性質を示すようです。
+fog.upgrade.lore.10=フォージの物質処理領域の近くで重力子の欠片の濃度を高めると、時空が大きく歪み、因果的な未来と過去の物質まで操作するようになります。これにより、物質の入力容量と処理能力が実質的に2倍になります。
+fog.upgrade.lore.11=大量の重力子の欠片を使うと、エキゾチックな形態の物質が通常よりはるかに安定して存在できるほど極端な空間領域が生まれます。残念ながら、この領域はあまりに極端なため、フォージの他の部分から空間的に実質切り離されており、構造やその他のモジュールの既存のアップグレードを利用できません。
+fog.upgrade.lore.12=重力子が誘起するマイクロブラックホールにさらすことで恒星燃料をさらに圧縮でき、自然の星で通常可能なものより高エネルギーの核融合反応によって、フォージの中心の星に燃料を供給する能力が高まります。その結果、より多くの熱が生まれ、フォージの処理効率が上がります。
+fog.upgrade.lore.13=燃料室の重力子の欠片の濃度を高めると、有限の空間の中で無限のフラクタルのような性質を示し始め、処理能力がさらに上がります。ただし、燃料室の奥深くの物質までエネルギーが届くように、それに見合った恒星燃料の増加が必要です。
+fog.upgrade.lore.14=重力子の欠片のエネルギーを操る独特の性質を利用すると、フォージ内で電気をより効率的に使えます。物質や電磁気力ではなく重力で電子を導くことで電力損失が減り、処理速度が上がります。
+fog.upgrade.lore.15=量子力変換器と同様に、重力子の欠片の量子力学的な性質により、フォージは物質の亜原子粒子を直接操作して、一連の複雑な核融合過程を一度の事象で完了できます。
+fog.upgrade.lore.16=重力子の欠片のもつれのような効果のもう一つの例として、単純なパワーフォージモジュールにもフォージの溶融コアモジュールへの改良が反映されるようになりました。これにより、処理と、手に入るわずかな貴重な重力子の欠片の配分の両方で、効率が上がります。
+fog.upgrade.lore.17=エキゾチックな物質の一般的な製錬技術は、極端な温度でも非効率になりすぎます。重力子の欠片は、前例のない数の臨界励起したニュートリノのトンネル効果を可能にし、対象物質への熱伝達を大幅に改善します。これは電気エネルギーを物質の熱に変える最も効率的な方法の一つです。
+fog.upgrade.lore.18=重力子の欠片は処理中の物質だけでなく、フォージの中心にある星そのものも操作できます。星を相対論的な速度で回転させると、生じるパルサーのバーストは、単なる静的な照射よりも単位時間あたりに多くのエネルギーを与えられます。その結果、より多くの物質をより速く処理できます。
+fog.upgrade.lore.19=重力子の欠片を使ったエネルギー貯蔵密度の継続的な改良は、フォージの効率と処理での熱利用の両方を向上させます。エネルギーの特異点のしきい値に達すると、処理効率に二重の効果があります。重力効果で物質そのものを操作でき、さらにマイクロ・クーゲルブリッツが逆説的にそのエネルギーをフォージで使いやすくするのです。
+fog.upgrade.lore.20=通常、物質の処理で熱を際限なく上げても効果は極端に逓減しますが、重力子の欠片は通常の電気による熱以外の加熱手段を可能にします。重力子の欠片を使って対象物質を極度に縮退した物質で包むと、物質が大きく圧縮され、フォージで通常可能な温度を超えて加熱されます。
+fog.upgrade.lore.21=重力子の欠片のもつれのような性質を使うと、フォージの領域間でますます極端になる時空の差を利用して、溶融モジュールの処理能力を高められます。空間がより歪むにつれて、より多くの物質を星の近くに動かせるようになり、生産能力が上がります。
+fog.upgrade.lore.22=重力子の欠片についての数々の発見を携えてフォージの最初のアップグレードに立ち返ると、以前よりはるかに速く動かせるようになります。既知の物理法則の外で作業するときは、最も基本的な前提を見直すことが時に重要です。最も単純な事実こそ最も強力かもしれないのですから。
+fog.upgrade.lore.23=中性子星のような重力的に高密度な天体の周りにこれほど大きな構造を維持する負荷は、重力子の欠片によって軽減されます。より一般的な機械類を守るため、重力を中和する物質のシースがフォージ全体に取り付けられ、構造が大きくなるほど効率が上がります。
+fog.upgrade.lore.24=重力子の欠片の重力的な封じ込め効果の理解が進んだことで、フォージは最もエキゾチックなプラズマ、通常はナノ秒しか存在しない合成超アクチノイド元素さえ処理して扱えるようになりました。さらに、少量の重力子で原子核を安定させることで、外部で使えるよう寿命を延ばします。
+fog.upgrade.lore.25=重力子の欠片の量子もつれのような性質をさらに活用すると、他のモジュールのアップグレードの効果をエキゾチックモジュールにも適用できます。ただし、このモジュール内の時空と扱う物質の極端な性質のため、これらの恩恵は逆二乗の法則に従って減少します。
+fog.upgrade.lore.26=フォージの中心の星の近くに追加のリングを置くにつれ、構造にかかる重力の負荷は劇的に増加します。重力子の欠片はこれらの負荷を軽減すると同時に、局所的な時空の橋を作って2つのリングとそれぞれのモジュールのアップグレードを結びつけます。
+fog.upgrade.lore.27=大量の重力子の欠片を使うことで、フォージの能力に大きな進展がありました。星に恒星燃料を際限なく供給できるようになったのです。効果は逓減しますが、終わりのない物質処理による極端に加速したエネルギー消費にもかかわらず、星は永遠に存在できます。
+fog.upgrade.lore.28=電気系統で重力子の欠片を使って局所的なミニチュアのエネルギーワームホールを作ることで、非常に効率的な電力伝送が可能になり、フォージは実質的に無制限の電気を使えるようになりました。電力が増えれば、処理が速くなり、物質の移動が速まり、重力子の欠片関連のアップグレードもうまく活用できます。
+fog.upgrade.lore.29=プラズマ製造機とエキゾチック化装置内の極限空間をさらに強化することで、単なる周期表の元素を超えた最もエキゾチックなプラズマを生産でき、まったく新しい種類の亜原子粒子の創造が可能になります。その結果生まれるのがマグマターです。これは磁気単極子だけでできた物質で、通常のボソン物質の何十億倍もの密度と安定性を持ちます。
+fog.upgrade.lore.30=3つ目にして最後のリングの建設により、神々のフォージを完全に極め、重力子の欠片を量子化してフォージの外で強力な新技術に使うために取り出せるようになりました。この進展によってあなたは悟ります。フォージの完成は最終目標ではなく、宇宙的な超越への足がかりにすぎなかったのだと。
+
+fog.upgrade.text.0=神々のフォージの基本機能を解放します。つまり、モジュールスロット8つ、リング1つ、ヘリオフレア・パワーフォージモジュール、処理電圧20億EU/t、熱ボーナスの上限15,000Kです。
+fog.upgrade.text.1=マルチブロックが稼働している現在の熱に基づくレシピ時間の短縮倍率を解放します。このボーナスは次の式で計算されます: 倍率 = 1 / (熱^0.01)
+fog.upgrade.text.2=実際の燃料消費に0.8を掛けて燃料効率を上げます
+fog.upgrade.text.3=最大燃料消費を1.2倍にします
+fog.upgrade.text.4=すべてのモジュールの基本処理電圧を次の分だけ上げます: 恒星燃料単位/秒 * 10^8 EU/t
+fog.upgrade.text.5=ヘリオフラックス溶融コアモジュールを解放します。
+fog.upgrade.text.6=燃料消費率に基づく最大並列数の倍率を解放します。このボーナスは次の式で計算されます: 倍率 = 1 + (恒星燃料単位/秒) / 15
+fog.upgrade.text.7=ヘリオサーマル・プラズマ製造機モジュールと、基本的な元素→プラズマの処理（1ステップのプラズマ、最大T3核融合）を解放します。
+fog.upgrade.text.8=最大バッテリー容量の設定ウィンドウを解放し、上限をintの最大値まで引き上げます。さらに、バッテリー容量に応じたエネルギー割引の倍率が解放されます（上限0.05、つまり5%%）。割引は次の式で計算されます: 割引 = (1 - 1.05^(-0.05 * 最大バッテリー容量)) / 20
+fog.upgrade.text.9=購入したアップグレード1つごとに、最大燃料消費を恒星燃料1単位/秒増やします。
+fog.upgrade.text.10=最大並列数に2倍の倍率を加えます。
+fog.upgrade.text.11=ヘリオフュージョン・エキゾチック化装置モジュールとクォークグルーオンプラズマの生成を解放します。この時点では、このモジュールは他のアップグレードの倍率やボーナスの影響を受けません。
+fog.upgrade.text.12=燃料消費→熱の変換式を改善します。改善後の式: パワーフォージの熱 = log_1.12(恒星燃料単位/秒) * 1000 + 12601、溶融コアの熱 = log1.18(恒星燃料単位/秒) * 1000 + 12601
+fog.upgrade.text.13=SAの式を次のように改善します: 倍率 = 1 + (恒星燃料単位/秒) / 5
+fog.upgrade.text.14=OC係数が現在の熱に応じて変化するようになります。パワーフォージと溶融コアは固定のOC係数2.15を得ます。プラズマ製造機のOC係数 = 4 - 25000 / 熱
+fog.upgrade.text.15=ヘリオサーマル・プラズマ製造機が複数ステップのプラズマを処理できるようになります。Tierの制限は引き続き適用されます。
+fog.upgrade.text.16=ヘリオフレア・パワーフォージがヘリオフラックス溶融コアのアップグレード経路の恩恵を完全に受けられるようになります。
+fog.upgrade.text.17=EBFの熱ボーナスの上限を30,000Kに引き上げます。
+fog.upgrade.text.18=現在の熱に基づく最大並列数の倍率を解放します。このボーナスは次の式で計算されます: 倍率 = 1 + 熱 / 15000
+fog.upgrade.text.19=EBFのエネルギー削減の熱ボーナスを5%%から8%%に改善し、内部バッテリーの充填レベルに応じたエネルギー割引を追加します。このボーナスは次の式で計算されます: 割引 = (現在の充填レベル / 最大容量 - 0.5)^2 * (-0.6) + 0.15。プラズマ製造機以外のモジュールでは2/3倍になります
+fog.upgrade.text.20=30,000Kを超えてもEBFの熱ボーナスが得られるようになりますが、熱ボーナスの計算に使う熱の値は次の式で決まります: パワーフォージの熱 = 30000 + (現在の熱 - 30000)^0.85、溶融コアの熱 = 30000 + (現在の熱 - 30000)^0.8
+fog.upgrade.text.21=購入したアップグレードの総数に基づく最大並列数の倍率を解放します。このボーナスは次の式で計算されます: 倍率 = 1 + アップグレード数 / 5
+fog.upgrade.text.22=現在の最大並列数に基づいてIGCCを改善します。改善後の式: 倍率 = (1 / 熱^0.01) / (並列数^0.02)
+fog.upgrade.text.23=稼働中のリング1つにつき最大処理電圧を4倍にします。他のボーナスの後に適用されます。
+fog.upgrade.text.24=ヘリオサーマル・プラズマ製造機がT5までのプラズマを処理できるようになります。
+fog.upgrade.text.25=ヘリオフュージョン・エキゾチック化装置が他のアップグレードの恩恵を受けられるようになりますが、その恩恵はまず平方根をとられます。オーバークロックのボーナスは次の式で調整されます: OC係数 = 2 + (基本OC係数 - 2)^2
+fog.upgrade.text.26=2つ目のリングの建設が可能になり、モジュールスロットが4つ増えます。
+fog.upgrade.text.27=最大燃料消費の上限をなくしますが、ボーナス計算に使う燃料消費は次の式に従って増えます: 実際のFC = 現在の最大FC + (現在のFC - 現在の最大FC)^0.4。FCは燃料消費、最大FCはこのアップグレードなしでの最大燃料消費を指します。技術的な理由により、燃料消費は2^31を超えられないことに注意してください。
+fog.upgrade.text.28=最大処理電圧の上限をなくします。電圧は各モジュールのGUIで設定できます。
+fog.upgrade.text.29=ヘリオフュージョン・エキゾチック化装置でのマグマター生産と、ヘリオサーマル・プラズマ製造機でのエキゾチックなプラズマの生成を解放します。
+fog.upgrade.text.30=3つ目のリングの建設が可能になり、モジュールスロットが4つ増え、重力子の欠片の排出と注入が解放されます。
+
+fog.debug.resetbutton.text=リセット
+fog.debug.resetbutton.tooltip=すべてのアップグレードを0にリセット
+fog.debug.unlockall.text=すべてのアップグレードを解放
+fog.debug.gravitonshardsetter.tooltip=使える重力子の欠片の数を設定
+
+fog.button.fuelconfig.tooltip=燃料設定メニュー
+fog.button.upgradetree.tooltip=天上の超越への道
+fog.button.furnacemode.tooltip.01=溶鉱炉モード
+fog.button.furnacemode.tooltip.02=かまどモード
+fog.button.magmattermode.tooltip.01=クォークグルーオンプラズマモード
+fog.button.magmattermode.tooltip.02=マグマターモード
+fog.button.magmattermode.tooltip.03=マグマターモードはロック中です。アップグレードが不足しています
+fog.button.battery.tooltip.01=バッテリー充電の切り替え
+fog.button.battery.tooltip.02=右クリックで設定メニューを開く（解放済みの場合）
+fog.button.voltageconfig.tooltip.01=電圧の設定を開く
+fog.button.voltageconfig.tooltip.02=電圧の設定はロック中です。「果てしない流れ」（アップグレード）が必要です
+fog.button.structurecheck.tooltip=モジュールの接続状態を更新
+fog.button.milestones.tooltip=マイルストーンの概要
+fog.button.materialrequirements.tooltip=アップグレードに追加の素材が必要です
+fog.button.materialrequirementsmet.tooltip=すべての素材が供給されています
+fog.button.materialrequirements.tooltip.clickhere=クリックで素材投入ウィンドウを開く
+fog.button.ejection.tooltip=重力子の欠片の排出の切り替え
+fog.button.formatting.tooltip=数値の書式の切り替え
+fog.button.exoticinputs.tooltip=クリックで期待される入力を表示
+fog.button.possibleexoticinputs.tooltip=クリックで可能なすべての入力を表示
+fog.button.reciperefresh.tooltip=クリックでレシピをリセット
+fog.button.refreshtimer.tooltip=リセット可能まで
+fog.button.seconds=秒
+fog.button.thanks.tooltip=貢献者の一覧
+fog.button.color.tooltip=外観メニュー
+fog.button.statistics.tooltip=統計の概要
+fog.text.tooltip.heat=レシピを実行できるかの判定に使う熱の値
+fog.text.tooltip.effectiveheat=ボーナスの計算に使う熱の値
+fog.text.tooltip.parallel=最大並列数
+fog.text.tooltip.speedbonus=基本レシピ時間の倍率。時間を短くします
+fog.text.tooltip.energydiscount=基本エネルギー消費の倍率。消費を減らします
+fog.text.tooltip.ocdivisor=オーバークロック1回ごとのレシピ時間短縮の除数（パーフェクトOCには影響しません）
+fog.text.tooltip.processingvoltage=レシピの基本処理電圧
+fog.text.tooltip.factorpreview=計算をシミュレートする燃料係数を入力
+fog.text.tooltip.applysimulationchanges=新しい値をシミュレート
+fog.text.tooltip.voltageadjustment=オーバーフローの懸念があるため、実際の電圧は次の式に従います:
+fog.text.tooltip.voltageadjustment.1=電圧 = Min(選択した電圧, 2^63 / 最大並列数)
+
+achievement.gt.blockmachines.multimachine.em.forge_of_gods=神の鍛造場
+achievement.gt.blockmachines.multimachine.em.smelting_module=ヘリオフレア・パワーフォージ
+achievement.gt.blockmachines.multimachine.em.molten_module=ヘリオフラックス溶融コア
+achievement.gt.blockmachines.multimachine.em.plasma_module=ヘリオサーマル・プラズマ製造機
+achievement.gt.blockmachines.multimachine.em.exotic_module=ヘリオフュージョン・エキゾチック化装置
+achievement.gt.godforgecasing.0=特異点強化構成防護外装
+achievement.gt.godforgecasing.1=天体物質誘導外装
+achievement.gt.godforgecasing.2=無限級重力阻害構造構築用外装
+achievement.gt.godforgecasing.3=超越級増幅磁場閉じ込め用外装
+achievement.gt.godforgecasing.4=恒星エネルギー吸引外装
+achievement.gt.godforgecasing.5=外周部用重力子流量調整器
+achievement.gt.godforgecasing.6=中間部用重力子流量調整器
+achievement.gt.godforgecasing.7=中心部用重力子流量調整器
+
+achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=BEEEEEEEEEAAAAAAM
+achievement.gt.blockmachines.multimachine.em.smelting_module.desc=すべてを統べる一つのかまど。
+achievement.gt.blockmachines.multimachine.em.molten_module.desc=良い液体固化機があるといいですね！
+achievement.gt.blockmachines.multimachine.em.plasma_module.desc=核融合？結構です。
+achievement.gt.blockmachines.multimachine.em.exotic_module.desc=2024年から静電気を生み出しています！
+achievement.gt.godforgecasing.0.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.1.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.2.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.3.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.4.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.5.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.6.desc=神々のフォージの構成ブロック
+achievement.gt.godforgecasing.7.desc=神々のフォージの構成ブロック
+
+gt.blockmachines.multimachine.FOG.parallel=並列
+gt.blockmachines.multimachine.FOG.batch=バッチサイズ
+gt.blockmachines.multimachine.FOG.fuelconsumption=恒星燃料消費係数
+gt.blockmachines.multimachine.FOG.fuelinfo.0=恒星燃料消費係数は、毎秒の恒星燃料の総消費量を計算するうえで主な決定要因です。燃料の種類ごとに増え方が異なり、次の通りです:
+gt.blockmachines.multimachine.FOG.fuelinfo.1=次元超越残渣: 係数*300*1.15^係数
+gt.blockmachines.multimachine.FOG.fuelinfo.2=凝縮した未加工恒星プラズマ混合物: 係数*2*1.08^係数
+gt.blockmachines.multimachine.FOG.fuelinfo.3=磁気流体力学的拘束星物質: 係数/25
+gt.blockmachines.multimachine.FOG.fuelinfo.4=この係数はマルチブロックの基本の熱も決めます: 熱=log_1.5(係数)*1000+12601
+gt.blockmachines.multimachine.FOG.fuelinfo.5=アップグレードはこれらの式に影響することがあり、その変更は各アップグレードの説明に記載されています。
+gt.blockmachines.multimachine.FOG.fueltype=クリックで燃料の種類を選択
+gt.blockmachines.multimachine.FOG.fuelusage=燃料の使用量
+gt.blockmachines.multimachine.FOG.plasmamultistep=複数ステップのプラズマ: %s
+gt.blockmachines.multimachine.FOG.plasmarecipetier=核融合Tier: %s
+gt.blockmachines.multimachine.FOG.storedfuel=蓄えた燃料の量:
+gt.blockmachines.multimachine.FOG.storedstartupfuel=スター燃料の量:
+gt.blockmachines.multimachine.FOG.batteryinfo=バッテリー容量を設定
+gt.blockmachines.multimachine.FOG.shardcost=重力子の欠片のコスト:
+gt.blockmachines.multimachine.FOG.availableshards=使える重力子の欠片:
+gt.blockmachines.multimachine.FOG.modulestatus=状態:
+gt.blockmachines.multimachine.FOG.modulestatus.true=接続済み
+gt.blockmachines.multimachine.FOG.modulestatus.false=切断
+gt.blockmachines.multimachine.FOG.voltageinfo=並列1つあたりの電圧
+gt.blockmachines.multimachine.FOG.totalprogress=全体の進行度
+gt.blockmachines.multimachine.FOG.milestoneprogress=現在のマイルストーンのレベル
+gt.blockmachines.multimachine.FOG.progress=次のマイルストーン
+gt.blockmachines.multimachine.FOG.milestonecomplete=マイルストーン達成
+gt.blockmachines.multimachine.FOG.milestoneinfo=マイルストーンの進行度を見る
+gt.blockmachines.multimachine.FOG.inversionactive=反転有効
+gt.blockmachines.multimachine.FOG.expectedinputs=期待される入力
+gt.blockmachines.multimachine.FOG.possibleinputsqgp=QGPに使える入力素材
+gt.blockmachines.multimachine.FOG.possibleinputsmagmatter=マグマターに使える入力素材
+gt.blockmachines.multimachine.FOG.powermilestone=充電
+gt.blockmachines.multimachine.FOG.recipemilestone=変換
+gt.blockmachines.multimachine.FOG.fuelmilestone=触媒
+gt.blockmachines.multimachine.FOG.purchasablemilestone=組成
+gt.blockmachines.multimachine.FOG.power=消費したEU
+gt.blockmachines.multimachine.FOG.recipes=処理したレシピ
+gt.blockmachines.multimachine.FOG.fuelconsumed=消費した燃料単位
+gt.blockmachines.multimachine.FOG.extensions=建設した拡張
+gt.blockmachines.multimachine.FOG.shardgain=獲得した重力子の欠片
+gt.blockmachines.multimachine.FOG.payUpgradeCosts=アップグレードのコストを支払う
+gt.blockmachines.multimachine.FOG.consumeUpgradeMats=クリックでアップグレード素材を消費
+
+gt.blockmachines.multimachine.FOG.clickhere=わからない？ここをクリックすると全般的な情報を表示します
+gt.blockmachines.multimachine.FOG.introduction=§Nはじめに
+gt.blockmachines.multimachine.FOG.introductioninfotext=神々のフォージではたくさんのことが起きていて、最初はかなり混乱するかもしれません。このメニューでは、起きていることすべてと、フォージの能力や仕組みをすべて説明します。
+gt.blockmachines.multimachine.FOG.tableofcontents=§N目次
+gt.blockmachines.multimachine.FOG.fuel=燃料
+gt.blockmachines.multimachine.FOG.modules=モジュール
+gt.blockmachines.multimachine.FOG.upgrades=アップグレード
+gt.blockmachines.multimachine.FOG.milestones=マイルストーン
+gt.blockmachines.multimachine.FOG.inversion=反転
+
+gt.blockmachines.multimachine.FOG.fuelinfotext.1=フォージの構造を建ててマルチブロックが形成されても、オンにするだけでは機能しません。実際に起動するには、一定量の§bスター燃料§6（アイテム）をフォージに供給する必要があります。
+gt.blockmachines.multimachine.FOG.fuelinfotext.2=必要なスター燃料の量は、燃料設定メニューで設定できる現在の燃料消費係数によって決まります。初期状態の最大値は5ですが、後でアップグレードによって増やせます。スター燃料の増え方は次の通りです:
+gt.blockmachines.multimachine.FOG.fuelinfotext.3=係数*25*1.2^係数
+gt.blockmachines.multimachine.FOG.fuelinfotext.4=スター燃料は入力バスから供給でき、定期的に消費されて内部に蓄えられます。マルチブロックに十分なスター燃料が蓄えられると、本当にオンになり（モジュールが接続できるようになり）、消費したスター燃料は蓄えられた§b恒星燃料§6に変換されます。
+gt.blockmachines.multimachine.FOG.fuelinfotext.5=これ以降、フォージには液体燃料のいずれか（種類は燃料設定メニューで選択可能）を供給する必要があります。入力ハッチに選択した燃料が足りないと、蓄えた燃料の量が減り、0になるとフォージは以前の「オフ」状態に戻ります。モジュールの接続が切れ、再びスター燃料を供給する必要があります。
+gt.blockmachines.multimachine.FOG.fuelinfotext.6=§bバッテリー充電§6をオンにすると、内部に蓄える恒星燃料（液体）の量を増やせます。燃料の使用量は2倍になりますが、その半分は内部バッテリーに蓄えられます。
+
+gt.blockmachines.multimachine.FOG.moduleinfotext.1=フォージで使えるモジュールは4種類あります。ヘリオフレア・パワーフォージ、ヘリオフラックス溶融コア、ヘリオサーマル・プラズマ製造機、ヘリオフュージョン・エキゾチック化装置です。これらのモジュールは別々のマルチブロックで、フォージの構造の指定された場所に建てる必要があります。
+gt.blockmachines.multimachine.FOG.moduleinfotext.2=建てたモジュールはフォージに接続する必要があり、各モジュールの要件がすべて満たされていれば自動的に接続されます。タイマーを待たずに状態を更新するボタンもあります。各モジュールには専用の機能と要件があり、特定のアップグレードの影響もそれぞれ異なります。
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.1=ヘリオフレア・パワーフォージ
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.2=最初に解放されるモジュールで、簡単に言えば発熱炉床よりさらに強力な溶鉱炉です。さらにこのモジュールには§bかまどモード§6があり、超強力なマルチ精錬機になります。このモジュールは初めから解放されていて、基本の並列数は§b1024§6です。
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.1=ヘリオフラックス溶融コア
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.2=2番目に解放されるモジュールで、これも溶鉱炉のレシピを処理しますが、一工夫あります。出力がインゴットではなく§b溶融した形§6で排出されるのです。出力に溶融した形がない場合は、通常の形で出力します。このモジュールが機能するにはアップグレードで解放する必要があり、基本の並列数は§b512§6です。
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.1=ヘリオサーマル・プラズマ製造機
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.2=3番目に解放されるモジュールで、素材を直接プラズマに変換するレシピを持つ独自のレシピマップを備えています。これらのレシピは§b核融合Tier§6と§b必要なステップ数§6の2つの性質で分類され、対応するアップグレードを解放するまでは処理できるレシピが制限されます。通常の核融合と違い、これらのレシピは入力した素材のプラズマを生み出します。このモジュールの基本の並列数は§b512§6です。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.1=ヘリオフュージョン・エキゾチック化装置
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.2=4番目にして最後に解放されるモジュールで、§bクォークグルーオンプラズマ§6、後には§bマグマター§6を生産できます。このモジュールには両方の素材それぞれに独特な自動化の課題があり、どちらか一方の素材に固定する必要があるので、2台用意することをおすすめします。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=両モードの自動化の課題に共通するルールは次の通りです: モジュールはレシピサイクルの開始時に素材を出力し、正しい入力が届くのを待ってから、出力素材の実際の処理を始めます。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=§bクォークグルーオンプラズマ§6を生産する場合、モジュールは最大7種類の液体/粉を、それぞれ1〜64、1〜7の量で出力し、レシピを処理するには対応するプラズマとその量を返す必要があります。レシピが機能するには、液体1Lにつきバケツ1杯分のプラズマ、粉1個につきインゴット9個分のプラズマを返す必要があります。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=§bマグマターモード§6が有効な場合、自動化の課題が変わります。モジュールは1〜50Lの§bタキオン豊富な時間液§6、51〜100Lの§b空間拡張液§6、そして高Tierの素材の粉1個を出力します。課題は、タキオン豊富な液と空間拡張液の両方に加えて、空間拡張液とタキオン豊富な液の量の差と同じだけの粉の素材のプラズマ（インゴット単位）を返すことです。これらすべてが正しい量で返されると、レシピの処理が始まり、マグマターを出力します。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.6=このモジュールの基本の並列数は§b64§6です。
+
+gt.blockmachines.multimachine.FOG.upgradeinfotext.1=アップグレードはフォージの心臓部であり、その機能と処理能力のほとんどを解放します。§bアップグレードツリー§6はメインGUIのボタンから開け、各アップグレードのノードをクリックすると効果と解放条件の詳細を見られます。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.2=一般に、各アップグレードは前のアップグレードが解放されていて、使える§b重力子の欠片§6が十分にある場合にのみ解放できます。例外は前のアップグレードがない最初のアップグレードです。追加の素材コストがあるアップグレードもあり、該当する場合は解放ボタンの横に表示されます。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.3=あるアップグレードに複数の前のアップグレードがつながっている場合、2つの選択肢があります。そのアップグレードに必要なのは次のどちらかです:
+gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- 前のアップグレードすべて（§4赤§aの接続）\n- 前のアップグレードのうち少なくとも1つ（§9青§aの接続）
+gt.blockmachines.multimachine.FOG.upgradeinfotext.5=§b振り直し§6ボタンを押すとアップグレードを払い戻せますが、つながっている後続のアップグレードがすべて有効/解放されていない場合にのみ機能します。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.6=ヘリオフュージョン・エキゾチック化装置モジュールの解放に続くアップグレードの一群は特別で、§b分岐§6と呼ばれます。名前の通り、最初は3つの道のうち1つしか選べず、他はロックされます。各道には主に特定のモジュールに向けた専用のボーナスがあり、そのため（特に記載がない限り）他の種類のモジュールには効果が弱まります。解放できる道の数はフォージの§bリングの数§6によって決まり、リングの数は後のアップグレードによって制限されます。
+
+gt.blockmachines.multimachine.FOG.milestoneinfotext.1=マイルストーンはフォージのアップグレードに欠かせません。アップグレードの解放に必要な主な通貨である§b重力子の欠片§6の入手源だからです。要するに、マイルストーンはその名の通り、到達すると重力子の欠片がもらえるしきい値です。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.2=マイルストーンには充電、変換、触媒、構成の4種類があり、それぞれフォージの統計の一つを指します。各マイルストーンには§b7§6つのTierがあり、Tierが上がるほど到達は難しくなりますが、もらえる重力子の欠片も増えます。1つ目のTierで1個、2つ目で2個、3つ目で3個、というように増えます。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.3=§b充電§6のマイルストーンはすべてのモジュールの合計消費電力に基づき、最初のTierは§b1e15§6 EUの消費で解放され、以降のマイルストーンは§b9倍§6ずつ増えます。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.4=§b変換§6のマイルストーンはすべてのモジュールで処理したレシピの総数（ヘリオフレア・パワーフォージのかまどモードを除く）に基づき、最初のTierは処理レシピ数§b1000万§6で解放されます。以降のTierは§b4倍§6ずつ増えます。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.5=§b触媒§6のマイルストーンはフォージの燃料消費に基づき、恒星燃料単位（燃料設定メニューで入力する数値）で数えます。最初のTierに到達するには§b10,000§6燃料単位を消費する必要があり、それ以上のTierは§b3倍§6ずつ増えます。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.6=最後に、§b構成§6のマイルストーンは少し違った仕組みで、フォージの構造に基づきます。構造内にある固有の種類のモジュールごと（クォークグルーオンモードとマグマターモードのヘリオフュージョン・エキゾチック化装置は別々に数えます）と、建設した追加のリングごとにマイルストーンのレベルが与えられます。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.7=あなたの研究によると、すべてのマイルストーンが最終Tierに達すると何か奇妙なことが起きるかもしれません...また確認してみてください！
+
+gt.blockmachines.multimachine.FOG.inversioninfotext.1=フォージのすべてのマイルストーンが§bTier 7§6に達すると、反転が有効になります。これによりすべてのマイルストーンの最大Tierの上限がなくなり、§b無限§6に増やせるようになります。
+gt.blockmachines.multimachine.FOG.inversioninfotext.2=各マイルストーンの増え方は指数関数的から線形に変わりますが、もらえる重力子の欠片の数は増え続けます。以降の各マイルストーンに必要な進行度は、各マイルストーンの§b7番目のTier§6に必要な量と同じです。
+gt.blockmachines.multimachine.FOG.inversioninfotext.3=構成のマイルストーンはここでも例外で、Tierごとに1ずつ増え続け、進行度の計算には独自の式を使います。モジュールの種類ごとに、ヘリオフレア・パワーフォージの§b1§6から、マグマターモードのヘリオフュージョン・エキゾチック化装置の§b5§6までの値が与えられ、各モジュールの数から1を引いてその値を掛けます。これらの値を合計して5で割ったものが、基本の7に加わる最終的なマイルストーンのTierです。
+
+gt.blockmachines.multimachine.FOG.contributors=貢献者
+gt.blockmachines.multimachine.FOG.lead=プロジェクトリーダー
+gt.blockmachines.multimachine.FOG.cloud=GDCloud
+gt.blockmachines.multimachine.FOG.programming=プログラミング
+gt.blockmachines.multimachine.FOG.teg=TheEpicGamer
+gt.blockmachines.multimachine.FOG.serenibyss=§dSereni§5byss
+gt.blockmachines.multimachine.FOG.textures=テクスチャと構造
+gt.blockmachines.multimachine.FOG.ant=Ant
+gt.blockmachines.multimachine.FOG.lore=Loremaster
+gt.blockmachines.multimachine.FOG.deleno=Deleno
+gt.blockmachines.multimachine.FOG.rendering=レンダリングの魔術師
+gt.blockmachines.multimachine.FOG.bucket=BucketBrigade
+gt.blockmachines.multimachine.FOG.playtesting=プレイテスト
+gt.blockmachines.multimachine.FOG.misi=Misi
+gt.blockmachines.multimachine.FOG.thanks=これを実現するのを手伝ってくれた素晴らしい人々に心から感謝します！ -Cloud
+gt.blockmachines.multimachine.FOG.modulestats=モジュールの統計
+gt.blockmachines.multimachine.FOG.powerforge=パワーフォージ
+gt.blockmachines.multimachine.FOG.meltingcore=溶融コア
+gt.blockmachines.multimachine.FOG.plasmafab=プラズマ製造機
+gt.blockmachines.multimachine.FOG.exoticizer=エキゾチック化
+gt.blockmachines.multimachine.FOG.heat=熱
+gt.blockmachines.multimachine.FOG.effectiveheat=実効熱
+gt.blockmachines.multimachine.FOG.speedbonus=速度ボーナス
+gt.blockmachines.multimachine.FOG.energydiscount=エネルギー割引
+gt.blockmachines.multimachine.FOG.ocdivisor=OC除数
+gt.blockmachines.multimachine.FOG.processingvoltage=処理電圧
+gt.blockmachines.multimachine.FOG.factorpreview=燃料係数のプレビュー:
+gt.blockmachines.multimachine.FOG.clickstat=クリックで値の内訳を表示
+
+gt.blockmachines.multimachine.FOG.hint.0=1 - 通常のハッチまたは超越増幅磁気閉じ込め外装
+gt.blockmachines.multimachine.FOG.hint.1=2 - モジュールの本体または特異点強化恒星遮蔽外装
+
+# Godforge Star Cosmetics
+fog.cosmetics.header=星の外観
+fog.cosmetics.color=色
+fog.cosmetics.color.red=Red
+fog.cosmetics.color.green=緑
+fog.cosmetics.color.blue=青
+fog.cosmetics.color.hue=H
+fog.cosmetics.color.saturation=S
+fog.cosmetics.color.value=V
+fog.cosmetics.color.gamma=ガンマ
+fog.cosmetics.color.rgb=RGB
+fog.cosmetics.color.rgb_colored=§cR§aG§9B
+fog.cosmetics.color.hsv=HSV
+fog.cosmetics.color.hsv_colored=§dH§6S§bV
+fog.cosmetics.color.hex=Hex:
+fog.cosmetics.selectcolor.tooltip.1=左クリックでこの星の色を選択
+fog.cosmetics.selectcolor.tooltip.2=Shift+左クリックでこの星の色を編集（カスタムカラーのみ）
+fog.cosmetics.starcolor=カスタムの星の色
+fog.cosmetics.customstarcolor=カスタム...
+fog.cosmetics.misc=その他
+fog.cosmetics.spin=回転
+fog.cosmetics.size=サイズ
+fog.cosmetics.animations=アニメーション
+fog.cosmetics.animations.tooltip=切り替えたとき、更新に少し時間がかかることがあります
+fog.cosmetics.cyclespeed=色の切り替え速度
+fog.cosmetics.onlyintegers=整数のみ
+fog.cosmetics.onlydecimals=小数のみ
+fog.cosmetics.starcolorname=星の色の名前:
+fog.cosmetics.starcolorname.tooltip.1=この星の色の名前を設定（最大15文字）
+fog.cosmetics.starcolorname.tooltip.2=重複は不可！重複すると番号が付きます
+fog.cosmetics.colorlist.tooltip.1=左クリックでこの星の色を選択
+fog.cosmetics.colorlist.tooltip.2=右クリックでこの星の色を一覧から削除
+fog.cosmetics.applycolor=Apply
+fog.cosmetics.applycolor.tooltip=選択した星の色に色を適用
+fog.cosmetics.addcolor=Add
+fog.cosmetics.addcolor.tooltip=星の色の一覧に追加
+fog.cosmetics.resetcolor=リセット
+fog.cosmetics.resetcolor.tooltip=現在の色をリセット
+fog.cosmetics.savecolors=保存
+fog.cosmetics.savecolors.tooltip=この星の色を保存
+fog.cosmetics.deletecolors=削除
+fog.cosmetics.deletecolors.tooltip=この星の色を削除
+fog.cosmetics.importcolors=インポート
+fog.cosmetics.importcolors.tooltip=テキストから星の色を取り込む
+fog.cosmetics.exportcolors=エクスポート
+fog.cosmetics.exportcolors.tooltip=書き出した星の色をクリップボードにコピー
+fog.cosmetics.exportcolors.message=書き出した星の色をクリップボードにコピーしました
+fog.cosmetics.exportcolors.failed=書き出した星の色をクリップボードにコピーできませんでした
+fog.cosmetics.importer.import=星の色を取り込む
+fog.cosmetics.importer.error=無効な星の色
+fog.cosmetics.importer.valid=有効な星の色
+fog.cosmetics.importer.apply=適用
+fog.cosmetics.importer.apply.tooltip=取り込んだ星の色を色エディターに適用
+fog.cosmetics.importer.reset=リセット
+fog.cosmetics.importer.reset.tooltip=取り込んだ星の色をリセット
+
+# Optical Circuits
+achievement.gt.metaitem.03.32155=オプティカルアセンブリー
+achievement.gt.metaitem.03.32156=オプティカルコンピューター
+achievement.gt.metaitem.03.32157=オプティカルメインフレーム
+
+# Parts
+achievement.gt.metaitem.01.32017=UIV Tierの電動モーター
+achievement.gt.metaitem.01.32021=UIV Tierの電動ピストン
+achievement.gt.metaitem.01.32025=UIV Tierの電動ポンプ
+achievement.gt.metaitem.01.32029=UIV Tierのコンベアーモジュール
+achievement.gt.metaitem.01.32033=UIV Tierの電動ロボットアーム
+achievement.gt.metaitem.01.32037=UIV Tierの発信器
+achievement.gt.metaitem.01.32041=UIV Tierのセンサー
+achievement.gt.metaitem.01.32045=UIV Tierの空間発生器
+
+achievement.gt.metaitem.01.32018=UMV Tierの電動モーター
+achievement.gt.metaitem.01.32022=UMV Tierの電動ピストン
+achievement.gt.metaitem.01.32026=UMV Tierの電動ポンプ
+achievement.gt.metaitem.01.32030=UMV Tierのコンベアーモジュール
+achievement.gt.metaitem.01.32034=UMV Tierの電動ロボットアーム
+achievement.gt.metaitem.01.32038=UMV Tierの発信器
+achievement.gt.metaitem.01.32042=UMV Tierのセンサー
+achievement.gt.metaitem.01.32046=UMV Tierの空間発生器
+
+#Pipes
+gt.blockmachines.pipe.elementalmatter.name=量子「トンネル」
+gt.blockmachines.pipe.elementalmatter.desc.0=量子トンネル装置。
+gt.blockmachines.pipe.elementalmatter.desc.1=ポータルではありません！！！
+gt.blockmachines.pipe.elementalmatter.desc.2=動作させるには塗装が必要です
+gt.blockmachines.pipe.elementalmatter.desc.3=交差、分岐、曲げは不可
+
+gt.blockmachines.pipe.energystream.name=レーザー真空パイプ
+gt.blockmachines.pipe.energystream.desc.0=レーザートンネル装置。
+gt.blockmachines.pipe.energystream.desc.1=まぶしい真空！！！
+gt.blockmachines.pipe.energystream.desc.2=動作させるには塗装が必要です
+gt.blockmachines.pipe.energystream.desc.3=分岐、曲げは不可
+
+gt.blockmachines.pipe.energymirror.name=レーザー真空ミラー
+gt.blockmachines.pipe.energymirror.desc.0=レーザー反射装置。
+gt.blockmachines.pipe.energymirror.desc.1=曲げは可能、分岐は不可
+
+gt.blockmachines.pipe.datastream.name=光学繊維ケーブル
+gt.blockmachines.pipe.datastream.desc.0=高度なデータ伝送
+gt.blockmachines.pipe.datastream.desc.1=ビームを見つめないで！
+gt.blockmachines.pipe.datastream.desc.2=動作させるには塗装が必要です
+gt.blockmachines.pipe.datastream.desc.3=交差、分岐は不可
+
+gt.blockmachines.pipe.desc.4=防爆
+
+#Single blocks
+gt.blockmachines.machine.tt.ownerdetector.name=所有者検出器
+gt.blockmachines.machine.tt.ownerdetector.desc.0=ドライバーでモードを切り替えます
+gt.blockmachines.machine.tt.ownerdetector.desc.1=パパを探しています
+gt.blockmachines.machine.tt.ownerdetector.desc.2=ご機嫌なときに信号を出します
+
+gt.blockmachines.machine.tt.datareader.name=データリーダー
+gt.blockmachines.machine.tt.datareader.desc.0=データスティックとオーブを読み取ります
+gt.blockmachines.machine.tt.datareader.desc.1=電力を供給して、
+gt.blockmachines.machine.tt.datareader.desc.2=データ記憶媒体を入れてください
+
+gt.blockmachines.machine.tt.buck.name=%1$s 降圧コンバーター
+gt.blockmachines.machine.tt.buck.desc.0=電子式電圧調整器
+gt.blockmachines.machine.tt.buck.desc.1=調整可能な降圧変圧器
+gt.blockmachines.machine.tt.buck.desc.2=スイッチング電源...
+
+gt.blockmachines.machine.tt.tesla.01.name=基本テスラ送受信機
+gt.blockmachines.machine.tt.tesla.02.name=高度なテスラ送受信機
+gt.blockmachines.machine.tt.tesla.03.name=エピックなテスラ送受信機
+gt.blockmachines.machine.tt.tesla.04.name=究極出力テスラ送受信機
+gt.blockmachines.machine.tt.tesla.05.name=狂気のテスラ送受信機
+gt.blockmachines.machine.tt.tesla.small.name=小型%s
+gt.blockmachines.machine.tt.tesla.large.name=大型%s
+gt.blockmachines.machine.tt.tesla.huge.name=巨大%s
+gt.blockmachines.machine.tt.tesla.desc.0=テスラ入出力機械ならこれ
+gt.blockmachines.machine.tt.tesla.desc.1=お金持ちのための稲妻コンロ
+
+#Debug blocks
+gt.blockmachines.debug.tt.pollutor.name=デバッグ用汚染発生機
+gt.blockmachines.debug.tt.pollutor.desc.0=クソ発電機が壊れた！
+gt.blockmachines.debug.tt.pollutor.desc.1=無限の生産/消費
+gt.blockmachines.debug.tt.pollutor.desc.2=欲しかったので？
+gt.blockmachines.debug.tt.data.name=デバッグ用データハッチ
+gt.blockmachines.debug.tt.data.desc.0=デバッグ用計算入力
+gt.blockmachines.debug.tt.data.desc.1=マルチブロックに設定可能な計算量を供給します。
+gt.blockmachines.debug.tt.data.desc.2=右クリックで設定
+gt.blockmachines.debug.tt.maintenance.name=全自動テープ設置メンテナンスハッチ
+gt.blockmachines.debug.tt.maintenance.desc.0=マルチブロックのメンテナンスを自動的に行える
+gt.blockmachines.debug.tt.maintenance.desc.1=自身以外の全てを修復する。
+gt.blockmachines.debug.tt.maintenance.desc.2=修理は庶民がやること！
+gt.blockmachines.debug.tt.genny.name=デバッグ用電力生成器
+gt.blockmachines.debug.tt.genny.desc.0=無からEUを発電する
+gt.blockmachines.debug.tt.genny.desc.1=無限の生産/消費
+gt.blockmachines.debug.tt.genny.desc.2=欲しかったので...
+gt.blockmachines.debug.tt.genny.desc.3=ドライバーでレーザーモードに切り替えられます。
+gt.blockmachines.debug.tt.certain.desc.0=確かな気分、確実に
+gt.blockmachines.debug.tt.certain.desc.1=シュレーディンガーの猫が箱から逃げ出した
+gt.blockmachines.debug.tt.dataaccess.name=デバッグ用データアクセスハッチ
+gt.blockmachines.debug.tt.dataaccess.desc.0=研究を一つずつズルで出すのはとても面倒なので...
+gt.blockmachines.debug.tt.dataaccess.desc.1=ALとAALにすべての組立ラインのレシピを提供します。
+gt.blockmachines.debug.tt.dataaccess.desc.2=テストと開発用。使いすぎるとワールドが重くなることがあります。
+
+GT5U.gui.text.recipe_result.computing=§a演算中
+GT5U.gui.text.recipe_result.providing_data=§aデータを提供中
+GT5U.gui.text.recipe_result.routing=§aルーティング中
+GT5U.gui.text.recipe_result.researching=§a研究中
+GT5U.gui.text.recipe_result.wrongRequirements=§7スキャンするアイテムが正しくありません
+GT5U.gui.text.recipe_result.scanning=§aスキャン中
+GT5U.gui.text.recipe_result.charging=§a充電中
+GT5U.gui.text.recipe_result.microwaving=§aマイクロ波加熱中
+GT5U.gui.text.recipe_result.no_routing=§7経路を作れません
+GT5U.gui.text.recipe_result.invalid_timer=§7タイマーが無効です
+GT5U.gui.text.recipe_result.no_research_item=§7研究できる有効なアイテムがありません
+GT5U.gui.text.recipe_result.no_chargeable_item=§7充電できるアイテムがありません
+GT5U.gui.text.recipe_result.no_computing=§7計算できません
+GT5U.gui.text.recipe_result.no_data=§7データを出力できません
+GT5U.gui.text.recipe_result.no_planet_block=§7惑星ブロックがありません
+GT5U.gui.text.recipe_result.no_helium=§7ヘリウムが足りません
+GT5U.gui.text.recipe_result.no_hydrogen=§7水素が足りません
+GT5U.gui.text.recipe_result.no_stellar_plasma=§7恒星プラズマが足りません
+GT5U.gui.text.recipe_result.invalid_hysteresis=§7ヒステリシスの設定が無効です
+GT5U.gui.text.recipe_result.invalid_transfer_radius=§7転送半径の設定が無効です
+GT5U.gui.text.recipe_result.invalid_voltage_setting=§7電圧の設定が無効です
+GT5U.gui.text.recipe_result.invalid_current_setting=§7電流の設定が無効です
+GT5U.gui.text.recipe_result.invalid_primary_winding=§7一次巻線のTierが低すぎます！
+GT5U.gui.text.recipe_result.invalid_time_setting=§7時間の設定が無効です
+GT5U.gui.text.recipe_result.invalid_overdrive_setting=§7オーバードライブの設定が無効です
+GT5U.gui.text.recipe_result.insufficient_power_no_val=§7電力が足りません
+GT5U.gui.text.recipe_result.missing_upgrades=§7アップグレードが足りません
+GT5U.gui.text.recipe_result.waiting_for_inputs=§7入力を待っています
+GT5U.gui.text.shutdown_reason.computation_loss=§4計算量の不足により停止しました。
+GT5U.gui.text.researching_item=§f研究中: §b%s
+GT5U.gui.text.research_progress=§f計算量: %d/%d (%s%%)
+GT5U.gui.text.at_eu_transferred=§8転送したEU:
+GT5U.gui.text.at_past_5secs.header=§7直近5秒:
+GT5U.gui.text.at_past_30secs.header=§7直近30秒:
+GT5U.gui.text.at_past_min.header=§7直近1分:
+GT5U.gui.text.at_history.values=  %s EU/t  (%sA %s)
+GT5U.gui.text.total_line=合計: %s EU
+GT5U.gui.text.usage_line=使用量: %s EU/t
+GT5U.gui.text.time_line=時間: %s 秒
+GT5U.gui.text.time_line_with_ticks=時間: %s 秒 (%d tick)
+
+# RecipeMaps
+gt.recipe.eyeofharmony=アイ・オブ・ハーモニー
+gt.recipe.researchStation=総合型研究装置
+gt.recipe.fog_plasma=ヘリオサーマル・プラズマファブリケーター
+gt.recipe.fog_exotic=ヘリオフュージョン・エキゾチサイザー
+gt.recipe.fog_molten=ヘリオフラックス溶融コア
+gt.recipe.upgrade_costs=神々のフォージのアップグレード
+gt.recipe.condensate=ボース＝アインシュタイン凝縮体
+
+
+# NEI
+tt.nei.eoh.total_items=アイテムの合計: %s
+tt.nei.eoh.solid_mass=固体の質量の割合: %s%%
+tt.nei.eoh.item_count=アイテム数: %s
+tt.nei.research.max_eu=最大EU: %s EU
+tt.nei.research.computation=計算量: %s
+tt.nei.research.min_computation=最小計算量: %s /s
+
+#Keywords and phrases
+#Example: ID:3
+tt.keyword.ID=ID
+#Example: 32EU at 1A
+tt.keyword.at=at
+# Any X
+tt.keyword.Structure.AnyComputerCasing=任意のコンピューター用外装
+tt.keyword.Structure.AnyHighPowerCasing=任意の高出力外装
+tt.keyword.Structure.AnyHighPowerCasing1D=任意の高出力外装 (1ドット)
+tt.keyword.Structure.AnyHighPowerCasing2D=任意の高出力外装 (2ドット)
+tt.keyword.Structure.AnyHighPowerCasingFront=任意の高出力外装 (正面)
+tt.keyword.Structure.AnyTeslaBaseCasingOuter=底面の縁部分の任意の外装
+tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=最前列または最後列の任意のコンピューター用外装
+tt.keyword.Structure.AnyComputerCasingBackMain=主要部分の裏側の任意のコンピューター用外装
+tt.keyword.Structure.AnyComputerCasingsHint1or3=ヒント番号1または3の任意のコンピューター外装
+tt.keyword.Structure.AnyAdvComputerCasing=任意の発展型コンピューター用外装
+tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=外側を除く任意の高度なコンピューター外装
+tt.keyword.Structure.AnyMolecularCasing=任意の分子外装
+tt.keyword.Structure.AnyMolecularCasing2D=点が2つの任意の分子外装
+tt.keyword.Structure.AnyMolecularCasing3D=点が3つの任意の分子外装
+tt.keyword.Structure.AnyMolecularCasing4D=点が4つの任意の分子外装
+tt.keyword.Structure.AnyOuterMolecularCasing3rd=3番目のスライスの外側の任意の分子外装
+tt.keyword.Structure.AnyOuterMolecularCasing4th=4番目のスライスの外側の任意の分子外装
+tt.keyword.Structure.AnyOuterMolecularCasing3rd4th=3番目または4番目のスライスの外側の任意の分子外装
+tt.keyword.Structure.AnyOuterCasingOnBottom=最下段の外側の任意の外装
+# Optional
+tt.keyword.Structure.Optional=(任意)
+# Placement specification
+tt.keyword.Structure.FrontCenter=正面の中央
+tt.keyword.Structure.BackCenter=背面中央
+tt.keyword.Structure.SideCenter=側面中央
+tt.keyword.Structure.FrontCenter3rd=正面中央、3段目
+tt.keyword.Structure.CenterPillar=前の柱の中央
+tt.keyword.Structure.Center=中央
+# Additional structure components
+tt.keyword.Structure.DataAccessHatch=データアクセスハッチ
+tt.keyword.Structure.InFrontOfEachComputerHeatVent=各コンピューター排熱口の前
+tt.keyword.Structure.DaisyChainAssemblyLine=組立ライン受信コネクターを使って機械を数珠つなぎにします
+tt.keyword.Structure.DaisyChainOptical=光受信コネクターを使って機械を数珠つなぎにします
+tt.keyword.Structure.ElementalOutput=エレメンタル出力ハッチ
+tt.keyword.Structure.Elemental=元素ハッチ
+tt.keyword.Structure.ElementalOverflow=元素オーバーフローハッチ
+tt.keyword.Structure.ElementalInput=エレメンタル入力ハッチ
+tt.keyword.Structure.EssentiaStorage=エッセンシア貯蔵
+tt.keyword.Structure.DataConnector=光学送信/受信コネクター
+tt.keyword.Structure.DataInput=光学受信コネクター
+tt.keyword.Structure.DataOutput=光学送信コネクター
+tt.keyword.Structure.SuperconductingCoilBlock=超伝導体コイルブロック
+tt.keyword.Structure.StainlessSteelCasing=ステンレス鋼外装
+tt.wirelessInputData.config.text=ワイヤレスネットワークから引き出す計算量を設定します
+
+
+tt.keyphrase.Hint_Details=ヒントの詳細
+
+#debug boom
+tt.keyword.BOOM=ドカーン！
+tt.keyword.Destination=出力ハッチID
+tt.keyword.Weight=出力ハッチの重み
+tt.keyword.Source=源
+tt.keyword.Progress=進捗
+tt.keyword.Computation=演算
+#Problems as in maintenance issues
+tt.keyword.Problems=問題
+tt.keyword.Efficiency=効率
+#Button that allows to pass power to other machines
+tt.keyword.PowerPass=電力パススルー: §9%s
+#Button that vents EM
+tt.keyword.SafeVoid=安全な消去: §9%s
+tt.keyword.Parametrizer=パラメトライザー
+tt.keyword.Value=値
+tt.keyword.Input=入力
+tt.keyword.input=入力
+tt.keyword.output=出力
+tt.keyword.Status=状態
+tt.keyword.Content=内容
+tt.keyword.Content.fmt=内容: §b%s
+tt.keyword.PacketHistory=パケット履歴
+tt.keyword.PacketHistory.fmt=パケット履歴: §c%s
+tt.keyword.ID.fmt=ID: §b%s
+
+#Used when 0 Elemental Matter Stacks
+tt.keyphrase.No_Stacks=スタックなし
+tt.keyphrase.Contains_EM=EMを含む
+tt.keyphrase.Contained_mass=含まれる質量
+tt.keyphrase.Mass_Disposal_speed=質量の処分速度
+tt.keyphrase.Muffler_BOOM=マフラーがドカン！
+tt.keyphrase.Energy_Hatches=エネルギーハッチ
+tt.keyphrase.Probably_uses=現在の消費
+tt.keyphrase.Probably_makes=現在の発電
+tt.keyphrase.Tier_Rating=Tier定格
+tt.keyphrase.Amp_Rating=アンペア定格 §a%s A
+tt.keyphrase.Computation_Available=利用可能な計算量
+tt.keyphrase.Computation_Remaining=残りの計算量
+tt.keyphrase.AL_Recipe_Providing=§6%s§7件の組立ラインのレシピを提供中
+tt.keyphrase.AL_Recipe_Receiving=§6%s§7件の組立ラインのレシピを受信中
+tt.keyphrase.Computation_Receiving=毎秒§6%s§7の計算量を受信中
+tt.keyphrase.Computation_Transmitting=毎秒§6%s§7の計算量を送信中
+tt.keyphrase.AL_Recipe_Transmitting=§6%s§7件の組立ラインのレシピを送信中
+tt.keyphrase.AL_Recipe_Header=§7組立ラインのレシピ:
+tt.keyphrase.AL_Recipe_Desc=§7- §a%s§7
+tt.keyphrase.AL_Recipe_None=§7- なし
+tt.keyphrase.AL_Recipe_All=§7- 利用可能なすべてのレシピ: §a%s
+tt.keyphrase.Base_computation=基本の計算量
+tt.keyphrase.After_overclocking=オーバークロック後
+tt.keyphrase.Heat_Accumulated=蓄積した熱
+tt.keyphrase.Running_interdimensional_scan=次元間スキャンを実行中
+tt.keyphrase.Running_local_dimension_scan=現在のディメンションのスキャンを実行中
+tt.keyphrase.Overdrive_disengaged=オーバードライブ解除
+tt.keyphrase.Overdrive_engaged=オーバードライブ作動
+tt.keyphrase.Hysteresis_high_set_to=ヒステリシス上限を%s%%に設定しました
+tt.keyphrase.Hysteresis_low_set_to=ヒステリシス下限を%s%%に設定しました
+tt.keyphrase.Tesla_radius_set_to=テスラの半径を%smに設定しました
+tt.keyphrase.Sending_power=電力を送信中！
+tt.keyphrase.Receiving_power=電力を受信中！
+tt.keyphrase.Stored_energy=エネルギー容量
+tt.keyphrase.Stored_EU=蓄電量
+tt.keyphrase.Average_IO=平均入/出力量
+tt.keyphrase.Average_IO_(max)=電圧入/出力量 (最大)
+tt.keyphrase.Average_IO_max=電圧入/出力量 (最大)
+tt.keyphrase.Amperage_IO_(max)=アンペア入/出力量 (最大)
+tt.keyphrase.Side_capabilities=面ごとの機能
+tt.keyphrase.Ass_line_recipe=組立ラインのレシピ
+
+tt.cover.ender_fluid_link.fill=エンダー充填を開始！
+tt.cover.ender_fluid_link.suck=エンダー吸引を開始！
+
+tt.block.world_accelerator.set_speed=機械の加速をx%sに変更しました
+tt.block.world_accelerator.set_range=機械の範囲を%sブロックに変更しました
+tt.block.world_accelerator.set_range_fail=範囲を変更できません。機械はタイルエンティティモードです！
+tt.block.world_accelerator.set_mode=モードを切り替えました: %s
+
+#OpenTurrets compatibility
+tile.turretHeadEM.name=元素物質タレット
+tile.turretBaseEM.name=元素タレットの台座
+
+#EM scan result
+tt.keyword.scan.depth=深さ
+tt.keyword.scan.class=クラス
+tt.keyword.scan.name=名前
+tt.keyword.scan.symbol=記号
+
+tt.keyword.scan.mass=質量
+tt.keyword.scan.count=個数
+tt.keyword.scan.amount=量
+tt.keyword.scan.energy=エネルギー
+tt.keyword.scan.energyLevel=エネルギー準位
+tt.keyword.scan.charge=電荷
+tt.keyword.scan.life_mult=寿命の倍率
+tt.keyword.scan.half_life=半減期
+tt.keyword.scan.life_time=寿命
+tt.keyword.scan.age=Age
+tt.keyphrase.scan.at_current_energy_level=現在のエネルギー準位で
+tt.keyword.scan.color=無色
+tt.keyword.scan.colorless=無色
+tt.keyword.scan.colored=有色
+
+tt.keyword.short.mass=M
+tt.keyword.short.count=Qty
+tt.keyword.short.amount=Qty
+tt.keyword.short.energy=E
+tt.keyword.short.energyLevel=EL
+tt.keyword.short.charge=C
+tt.keyword.short.time=T
+
+tt.keyword.unit.mass=eV/c²
+tt.keyword.unit.massFlux=eV/c²s
+tt.keyword.unit.count=
+tt.keyword.unit.mol=mol
+tt.keyword.unit.itemMols=個
+tt.keyword.unit.mbMols=mb
+tt.keyword.unit.energy=eV
+tt.keyword.unit.charge=e
+tt.keyword.unit.time=s
+tt.keyword.unit.tick=t
+#that the thing wont decay
+tt.keyword.stable=安定
+
+#EM types
+tt.keyword.Primitive=原始
+tt.keyword.Element=元素
+tt.keyword.Atom=原子
+tt.keyword.Isotope=Isotope
+tt.keyword.Boson=ボソン
+tt.keyword.Fermion=フェルミオン
+tt.keyword.GaugeBoson=ゲージボソン
+tt.keyword.Meson=中間子
+tt.keyword.Baryon=バリオン
+tt.keyword.Tetraquark=テトラクォーク
+tt.keyword.Pentaquark=ペンタクォーク
+tt.keyword.Hexaquark=ヘキサクォーク
+tt.keyword.Hadron=ハドロン
+tt.keyword.Neutrino=ニュートリノ
+tt.keyword.Quark=クォーク
+tt.keyword.ScalarBoson=スカラーボソン
+#em definitions
+tt.keyword.PrimitiveNBTERROR=NBTエラー
+tt.keyword.PrimitiveNULLPOINTER=ヌルポインター
+tt.keyword.PrimitiveSpace=空間
+tt.keyword.PrimitivePresence=存在
+tt.keyword.PrimitiveMass=質量
+tt.keyword.PrimitiveDarkMass=暗黒質量
+tt.keyword.PrimitiveEnergy=エネルギー
+tt.keyword.PrimitiveDarkEnergy=暗黒エネルギー
+tt.keyword.PrimitiveMagic=魔力
+tt.keyword.PrimitiveAntimagic=反魔力
+tt.keyword.Gluon=グルーオン
+tt.keyword.Photon=光子
+tt.keyword.Weak0=弱
+tt.keyword.WeakPlus=弱+
+tt.keyword.WeakMinus=弱-
+tt.keyword.Proton=陽子
+tt.keyword.AntiProton=反陽子
+tt.keyword.Neutron=中性子
+tt.keyword.AntiNeutron=反中性子
+tt.keyword.Lepton=レプトン
+tt.keyword.Electron=電子
+tt.keyword.Muon=ミューオン
+tt.keyword.Tauon=タウ粒子
+tt.keyword.Positron=陽電子
+tt.keyword.Antimuon=反ミューオン
+tt.keyword.Antitauon=反タウ粒子
+tt.keyword.ElectronNeutrino=電子ニュートリノ
+tt.keyword.MuonNeutrino=ミューニュートリノ
+tt.keyword.TauonNeutrino=タウニュートリノ
+tt.keyword.PositronNeutrino=陽電子ニュートリノ
+tt.keyword.AntimuonNeutrino=反ミューニュートリノ
+tt.keyword.AntitauonNeutrino=反タウニュートリノ
+tt.keyword.QuarkUp=Up
+tt.keyword.QuarkCharm=チャーム
+tt.keyword.QuarkTop=Top
+tt.keyword.QuarkDown=ダウン
+tt.keyword.QuarkStrange=ストレンジ
+tt.keyword.QuarkBottom=ボトム
+tt.keyword.QuarkAntiUp=反アップ
+tt.keyword.QuarkAntiCharm=反チャーム
+tt.keyword.QuarkAntiTop=反トップ
+tt.keyword.QuarkAntiDown=反ダウン
+tt.keyword.QuarkAntiStrange=反ストレンジ
+tt.keyword.QuarkAntiBottom=反ボトム
+tt.keyword.Higgs=ヒッグス
+#These are Thaumcraft aspects
+tt.keyword.Air=Air
+tt.keyword.Earth=土
+tt.keyword.Fire=火
+tt.keyword.Water=水
+tt.keyword.Order=秩序
+tt.keyword.Entropy=エントロピー
+tt.keyword.Chaos=混沌
+
+tt.keyword.Primal=根源
+tt.keyword.Aspect=相
+
+tt.element.Neutronium=ニュートロニウム
+tt.element.Hydrogen=水素
+tt.element.Helium=ヘリウム
+tt.element.Lithium=リチウム
+tt.element.Beryllium=ベリリウム
+tt.element.Boron=ホウ素
+tt.element.Carbon=炭素
+tt.element.Nitrogen=窒素
+tt.element.Oxygen=酸素
+tt.element.Fluorine=フッ素
+tt.element.Neon=ネオン
+tt.element.Sodium=ナトリウム
+tt.element.Magnesium=マグネシウム
+tt.element.Aluminium=アルミニウム
+tt.element.Silicon=シリコン
+tt.element.Phosphorus=リン
+tt.element.Sulfur=硫黄
+tt.element.Chlorine=塩素
+tt.element.Argon=アルゴン
+tt.element.Potassium=カリウム
+tt.element.Calcium=カルシウム
+tt.element.Scandium=スカンジウム
+tt.element.Titanium=チタン
+tt.element.Vanadium=バナジウム
+tt.element.Chromium=クロム
+tt.element.Manganese=マンガン
+tt.element.Iron=鉄
+tt.element.Cobalt=コバルト
+tt.element.Nickel=ニッケル
+tt.element.Copper=銅
+tt.element.Zinc=亜鉛
+tt.element.Gallium=ガリウム
+tt.element.Germanium=ゲルマニウム
+tt.element.Arsenic=ヒ素
+tt.element.Selenium=セレン
+tt.element.Bromine=臭素
+tt.element.Krypton=クリプトン
+tt.element.Rubidium=ルビジウム
+tt.element.Strontium=ストロンチウム
+tt.element.Yttrium=イットリウム
+tt.element.Zirconium=ジルコニウム
+tt.element.Niobium=ニオブ
+tt.element.Molybdenum=モリブデン
+tt.element.Technetium=テクネチウム
+tt.element.Ruthenium=ルテニウム
+tt.element.Rhodium=ロジウム
+tt.element.Palladium=パラジウム
+tt.element.Silver=銀
+tt.element.Cadmium=カドミウム
+tt.element.Indium=インジウム
+tt.element.Tin=錫
+tt.element.Antimony=アンチモン
+tt.element.Tellurium=テルル
+tt.element.Iodine=ヨウ素
+tt.element.Xenon=キセノン
+tt.element.Caesium=セシウム
+tt.element.Barium=バリウム
+tt.element.Lanthanum=ランタン
+tt.element.Cerium=セリウム
+tt.element.Praseodymium=プラセオジム
+tt.element.Neodymium=ネオジム
+tt.element.Promethium=プロメチウム
+tt.element.Samarium=サマリウム
+tt.element.Europium=ユーロピウム
+tt.element.Gadolinium=ガドリニウム
+tt.element.Terbium=テルビウム
+tt.element.Dysprosium=ジスプロシウム
+tt.element.Holmium=ホルミウム
+tt.element.Erbium=エルビウム
+tt.element.Thulium=ツリウム
+tt.element.Ytterbium=イッテルビウム
+tt.element.Lutetium=ルテチウム
+tt.element.Hafnium=ハフニウム
+tt.element.Tantalum=タンタル
+tt.element.Tungsten=タングステン
+tt.element.Rhenium=レニウム
+tt.element.Osmium=オスミウム
+tt.element.Iridium=イリジウム
+tt.element.Platinum=プラチナ
+tt.element.Gold=金
+tt.element.Mercury=水銀
+tt.element.Thallium=タリウム
+tt.element.Lead=鉛
+tt.element.Bismuth=ビスマス
+tt.element.Polonium=ポロニウム
+tt.element.Astatine=アスタチン
+tt.element.Radon=ラドン
+tt.element.Francium=フランシウム
+tt.element.Radium=ラジウム
+tt.element.Actinium=アクチニウム
+tt.element.Thorium=トリウム
+tt.element.Protactinium=プロトアクチニウム
+tt.element.Uranium=ウラン
+tt.element.Neptunium=ネプツニウム
+tt.element.Plutonium=プルトニウム
+tt.element.Americium=アメリシウム
+tt.element.Curium=キュリウム
+tt.element.Berkelium=バークリウム
+tt.element.Californium=カリホルニウム
+tt.element.Einsteinium=アインスタイニウム
+tt.element.Fermium=フェルミウム
+tt.element.Mendelevium=メンデレビウム
+tt.element.Nobelium=ノーベリウム
+tt.element.Lawrencium=ローレンシウム
+tt.element.Rutherfordium=ラザホージウム
+tt.element.Dubnium=ドブニウム
+tt.element.Seaborgium=シーボーギウム
+tt.element.Bohrium=ボーリウム
+tt.element.Hassium=ハッシウム
+tt.element.Meitnerium=マイトネリウム
+tt.element.Darmstadtium=ダームスタチウム
+tt.element.Roentgenium=レントゲニウム
+tt.element.Copernicium=コペルニシウム
+tt.element.Nihonium=ニホニウム
+tt.element.Flerovium=フレロビウム
+tt.element.Moscovium=モスコビウム
+tt.element.Livermorium=リバモリウム
+tt.element.Tennessine=テネシン
+tt.element.Oganesson=オガネソン
+
+tt.element.AntiNeutronium=反ニュートロニウム
+tt.element.AntiHydrogen=反水素
+tt.element.AntiHelium=反ヘリウム
+tt.element.AntiLithium=反リチウム
+tt.element.AntiBeryllium=反ベリリウム
+tt.element.AntiBoron=反ボロン
+tt.element.AntiCarbon=反炭素
+tt.element.AntiNitrogen=反窒素
+tt.element.AntiOxygen=反酸素
+tt.element.AntiFluorine=反フッ素
+tt.element.AntiNeon=反ネオン
+tt.element.AntiSodium=反ナトリウム
+tt.element.AntiMagnesium=反マグネシウム
+tt.element.AntiAluminium=反アルミニウム
+tt.element.AntiSilicon=反シリコン
+tt.element.AntiPhosphorus=反リン
+tt.element.AntiSulfur=反硫黄
+tt.element.AntiChlorine=反塩素
+tt.element.AntiArgon=反アルゴン
+tt.element.AntiPotassium=反カリウム
+tt.element.AntiCalcium=反カルシウム
+tt.element.AntiScandium=反スカンジウム
+tt.element.AntiTitanium=反チタン
+tt.element.AntiVanadium=反バナジウム
+tt.element.AntiChromium=反クロム
+tt.element.AntiManganese=反マンガン
+tt.element.AntiIron=反鉄
+tt.element.AntiCobalt=反コバルト
+tt.element.AntiNickel=反ニッケル
+tt.element.AntiCopper=反銅
+tt.element.AntiZinc=反亜鉛
+tt.element.AntiGallium=反ガリウム
+tt.element.AntiGermanium=反ゲルマニウム
+tt.element.AntiArsenic=反ヒ素
+tt.element.AntiSelenium=反セレン
+tt.element.AntiBromine=反臭素
+tt.element.AntiKrypton=反クリプトン
+tt.element.AntiRubidium=反ルビジウム
+tt.element.AntiStrontium=反ストロンチウム
+tt.element.AntiYttrium=反イットリウム
+tt.element.AntiZirconium=反ジルコニウム
+tt.element.AntiNiobium=反ニオブ
+tt.element.AntiMolybdenum=反モリブデン
+tt.element.AntiTechnetium=反テクネチウム
+tt.element.AntiRuthenium=反ルテニウム
+tt.element.AntiRhodium=反ロジウム
+tt.element.AntiPalladium=反パラジウム
+tt.element.AntiSilver=反銀
+tt.element.AntiCadmium=反カドミウム
+tt.element.AntiIndium=反インジウム
+tt.element.AntiTin=反錫
+tt.element.AntiAntimony=反アンチモン
+tt.element.AntiTellurium=反テルル
+tt.element.AntiIodine=反ヨウ素
+tt.element.AntiXenon=反キセノン
+tt.element.AntiCaesium=反セシウム
+tt.element.AntiBarium=反バリウム
+tt.element.AntiLanthanum=反ランタン
+tt.element.AntiCerium=反セリウム
+tt.element.AntiPraseodymium=反プラセオジウム
+tt.element.AntiNeodymium=反ネオジム
+tt.element.AntiPromethium=反プロメチウム
+tt.element.AntiSamarium=反サマリウム
+tt.element.AntiEuropium=反ユーロピウム
+tt.element.AntiGadolinium=反ガドリニウム
+tt.element.AntiTerbium=反テルビウム
+tt.element.AntiDysprosium=反ジスプロシウム
+tt.element.AntiHolmium=反ホルミウム
+tt.element.AntiErbium=反エルビウム
+tt.element.AntiThulium=反ツリウム
+tt.element.AntiYtterbium=反イッテルビウム
+tt.element.AntiLutetium=反ルテチウム
+tt.element.AntiHafnium=反ハフニウム
+tt.element.AntiTantalum=反タンタル
+tt.element.AntiTungsten=反タングステン
+tt.element.AntiRhenium=反レニウム
+tt.element.AntiOsmium=反オスミウム
+tt.element.AntiIridium=反イリジウム
+tt.element.AntiPlatinum=反プラチナ
+tt.element.AntiGold=反金
+tt.element.AntiMercury=反水銀
+tt.element.AntiThallium=反タリウム
+tt.element.AntiLead=反鉛
+tt.element.AntiBismuth=反ビスマス
+tt.element.AntiPolonium=反ポロニウム
+tt.element.AntiAstatine=反アスタチン
+tt.element.AntiRadon=反ラドン
+tt.element.AntiFrancium=反フランシウム
+tt.element.AntiRadium=反ラジウム
+tt.element.AntiActinium=反アクチニウム
+tt.element.AntiThorium=反トリウム
+tt.element.AntiProtactinium=反プロトアクチニウム
+tt.element.AntiUranium=反ウラン
+tt.element.AntiNeptunium=反ネプツニウム
+tt.element.AntiPlutonium=反プルトニウム
+tt.element.AntiAmericium=反アメリシウム
+tt.element.AntiCurium=反キュリウム
+tt.element.AntiBerkelium=反バークリウム
+tt.element.AntiCalifornium=反カリホルニウム
+tt.element.AntiEinsteinium=反アインスタイニウム
+tt.element.AntiFermium=反フェルミウム
+tt.element.AntiMendelevium=反メンデレビウム
+tt.element.AntiNobelium=反ノーベリウム
+tt.element.AntiLawrencium=反ローレンシウム
+tt.element.AntiRutherfordium=反ラザホージウム
+tt.element.AntiDubnium=反ドブニウム
+tt.element.AntiSeaborgium=反シーボーギウム
+tt.element.AntiBohrium=反ボーリウム
+tt.element.AntiHassium=反ハッシウム
+tt.element.AntiMeitnerium=反マイトネリウム
+tt.element.AntiDarmstadtium=反ダームスタチウム
+tt.element.AntiRoentgenium=反レントゲニウム
+tt.element.AntiCopernicium=反コペルニシウム
+tt.element.AntiNihonium=反ニホニウム
+tt.element.AntiFlerovium=反フレロビウム
+tt.element.AntiMoscovium=反モスコビウム
+tt.element.AntiLivermorium=反リバモリウム
+tt.element.AntiTennessine=反テネシン
+tt.element.AntiOganesson=反オガネソン
+
+tt.IUPAC.n=nil
+tt.IUPAC.u=un
+tt.IUPAC.b=bi
+tt.IUPAC.t=tri
+tt.IUPAC.q=quad
+tt.IUPAC.p=pent
+tt.IUPAC.h=hex
+tt.IUPAC.s=sept
+tt.IUPAC.o=oct
+tt.IUPAC.e=enn
+tt.IUPAC.N=Nil
+tt.IUPAC.U=Un
+tt.IUPAC.B=Bi
+tt.IUPAC.T=Tri
+tt.IUPAC.Q=Quad
+tt.IUPAC.P=Pent
+tt.IUPAC.H=Hex
+tt.IUPAC.S=Sept
+tt.IUPAC.O=Oct
+tt.IUPAC.E=Enn
+tt.IUPAC.ium=ium
+tt.IUPAC.Anti=Anti
+tt.keyword.Weird=*
+
+tt.chat.debug.generator=レーザーモード: %s
+
+GT5U.gui.config.general.debug=デバッグ
+GT5U.gui.config.general.features=機能
+GT5U.gui.config.general.teslatweaks=テスラの調整
+GT5U.gui.config.general.visual=表示
+
+tt.eoh.fancy_names.crude=粗製
+tt.eoh.fancy_names.primitive=原始
+tt.eoh.fancy_names.stable=安定
+tt.eoh.fancy_names.advanced=高度
+tt.eoh.fancy_names.superb=極上
+tt.eoh.fancy_names.exotic=エキゾチック
+tt.eoh.fancy_names.perfect=完璧
+tt.eoh.fancy_names.tipler=Tipler
+tt.eoh.fancy_names.gallifreyan=ガリフレイ
+tt.eoh.fancy_names.unknown=不明
+
+tt.godforge.casings.Error.Tooltip=エラー。GTNHチームに報告してください
+tt.godforge.casings.0.Tooltip.0=特異点の事象の地平面に守られている
+tt.godforge.casings.0.Tooltip.1=近づきすぎないで...
+tt.godforge.casings.1.Tooltip.0=時空の歪みを使って恒星物質を導くよう設計されている
+tt.godforge.casings.1.Tooltip.1=現実の歪曲
+tt.godforge.casings.2.Tooltip.0=重力の影響を受けない
+tt.godforge.casings.2.Tooltip.1=ブラックホールでさえこれを引き裂けない。
+tt.godforge.casings.3.Tooltip.0=星全体を拘束できるほどの巨大な磁場を生み出す
+tt.godforge.casings.3.Tooltip.1=効果は抜群だ！
+tt.godforge.casings.4.Tooltip.0=恒星物質の流れから熱エネルギーを取り出す
+tt.godforge.casings.4.Tooltip.1=もっと熱く！
+tt.godforge.casings.5.Tooltip.0=重力子の流れを制御して重力を操る
+tt.godforge.casings.5.Tooltip.1=800銀河を超えると指数関数的に増える
+tt.godforge.casings.6.Tooltip.0=重力子の流れを制御して重力を操る
+tt.godforge.casings.6.Tooltip.1=近づいてきた...
+tt.godforge.casings.7.Tooltip.0=重力子の流れを制御して重力を操る
+tt.godforge.casings.7.Tooltip.1=重力の中心
+tt.godforge.casings.8.Tooltip.0=極端な量の熱を損失なく伝え、蓄える
+tt.godforge.casings.8.Tooltip.1=<<<熱<<<
+tt.godforge.casings.8.Tooltip.2=>>>波>>>
+tt.godforge.star_color.preset.default=デフォルト
+tt.godforge.star_color.preset.rainbow=レインボー
+tt.godforge.star_color.preset.clouds_pick=Cloudのおすすめ
+tt.godforge.star_color.preset.mayas_pick=Mayaのおすすめ
+
+
+tt.eoh.stability.tooltip=§b§l時空場の安定性を高めます。
+tt.eoh.time_dilation.standard.tooltip=§b§l箱の中の時間の遅れ。
+tt.eoh.time_dilation.error.tooltip=§c§lエラー。GTNHチームに報告してください
+tt.eoh.spacetime.standard.tooltip.0=最大%d km³の内部時空体積に対応します。
+tt.eoh.spacetime.standard.tooltip.1=§b§lTier %dまでのレシピを実行できます
+tt.eoh.spacetime.name=%s時空圧縮場生成器
+tt.eoh.stabilisation.name=%s安定化場生成器
+tt.eoh.time_dilation.name=%s時間遅延場生成器
+
+# Info data
+
+tt.infodata.multi.energy_hatches=エネルギーハッチ: %s EU / %s EU
+tt.infodata.multi.currently_generates=現在の発電: %s EU/t（%s A）
+tt.infodata.multi.computation=計算量: §a%s §r/ §e%s
+tt.infodata.multi.connection_health=量子コンピューターとの接続: %s
+tt.infodata.multi.connection_health.inactive=非アクティブ
+tt.infodata.multi.connection_health.established=確立済み
+tt.infodata.multi.connection_health.waiting=応答を待っています
+tt.infodata.multi.connection_health.decoherence=デコヒーレンスを検出
+tt.infodata.multi.max_parallel=最大並列数: %s
+tt.infodata.multi.multiplier.recipe_time=レシピ時間の倍率: %s
+tt.infodata.multi.multiplier.energy=エネルギーの倍率: %s
+tt.infodata.multi.divisor.recipe_time.non_perfect_oc=通常OC1回あたりのレシピ時間の除数: %s
+tt.infodata.multi.currently_using=現在の消費: %s EU/t
+tt.infodata.multi.capacity.heat=熱容量: %s
+tt.infodata.multi.capacity.heat.effective=実効熱容量: %s
+tt.infodata.active_transformer.min_hatch_tier=ハッチの最低Tier: %s
+tt.infodata.active_transformer.last_5s=直近5秒: %s EU/t
+tt.infodata.active_transformer.last_30s=直近30秒: %s EU/t
+tt.infodata.active_transformer.last_1min=直近1分: %s EU/t
+tt.infodata.research.energy_hatches.header=エネルギーハッチ:
+tt.infodata.research.currently_uses=現在の消費: §c%s§r EU/t（§c%s§r A）
+tt.infodata.research.tier_amp=Tier定格: §e%s§r / §a%s§r アンペア定格: §a%s§r A
+tt.infodata.research.problems_efficiency=問題: §c%s§r 効率: §e%s§r %%
+tt.infodata.research.power_pass_safe_void=電力パススルー: §9%s§r 安全な消去: §9%s
+tt.infodata.research.computation_available=利用可能な計算量: §a%s§r / §e%s§r
+tt.infodata.research.computation_remaining=残りの計算量: §a%s§r / §e%s§r
+
+## Waila
+
+tt.waila.multi.computation=§7計算量: §a%s
+
+## Eye of Harmony
+tt.infodata.eoh.control_block_statistics=制御ブロックの統計
+tt.infodata.eoh.control_block_statistics.header=§6§m-------------§r§6 制御ブロックの統計 §m-------------
+tt.infodata.eoh.internal_storage.header=§6§m-----------------§r§6 内部ストレージ §m----------------
+tt.infodata.eoh.other_stats.header=§6§m-----------------§r§6 その他の統計 §m-----------------
+tt.infodata.eoh.divider=§6§m-----------------------------------------------------
+tt.infodata.eoh.spacetime_compression.grade=時空圧縮場のグレード: %s (%s)
+tt.infodata.eoh.spacetime_compression.grade.none=時空圧縮場のグレード: なし
+tt.infodata.eoh.time_dilation.grade=時間遅延場のグレード: %s (%s)
+tt.infodata.eoh.time_dilation.grade.none=時間遅延場のグレード: なし
+tt.infodata.eoh.stabilisation.grade=安定化場のグレード: %s (%s)
+tt.infodata.eoh.stabilisation.grade.none=安定化場のグレード: なし
+tt.infodata.eoh.internal_storage=内部ストレージ
+tt.infodata.eoh.astral_array_fabricators=アストラルアレイ・ファブリケータ―
+tt.infodata.eoh.astral_array_fabricators.count=§9アストラルアレイ製造機§r : §c%s
+tt.infodata.eoh.other_stats=その他の統計
+tt.infodata.eoh.success_chance=レシピの成功確率: %s
+tt.infodata.eoh.recipe_yield=レシピの収量: %s
+tt.infodata.eoh.effective_astral_array_fabricators=有効なアストラルアレイ製造機: %s
+tt.infodata.eoh.total_parallel=並列数の合計: %s
+tt.infodata.eoh.eu_output=EU出力: %s EU
+tt.infodata.eoh.eu_input=EU入力: %s EU
+tt.infodata.eoh.avg_output=平均%s出力: %s L、%s L/s
+tt.infodata.eoh.estimated_eu=推定EU/t: %s EU/t
+
+## Quantum Computer
+tt.infodata.qc.wireless_mode.enabled=ワイヤレスモード: §a有効
+tt.infodata.qc.wireless_mode.disabled=ワイヤレスモード: §c無効
+tt.infodata.qc.total_wireless_computation=利用可能なワイヤレス計算量の合計: %s
+
+## Forge of gods
+tt.infodata.fog.rings=リングの数: %s
+tt.infodata.fog.upgrades.unlocked=解放したアップグレードの合計: %s
+tt.infodata.fog.connected=接続中のモジュール: %s
+
+## Tesla Tower
+tt.infodata.tesla.energy=テスラのエネルギー: %s EU / %s EU
+tt.infodata.tesla.current_output=現在の出力: %s EU / %s EU
+
+## Base factory pipe
+tt.infodata.pipe.active=稼働中。
+tt.infodata.pipe.inactive=非アクティブ。
+
+## Space Elevator
+tt.spaceelevator.storedEnergy=蓄電量: %d
+# Space Miner
+tt.spaceminer.distance=距離
+tt.spaceminer.parallel=並列数
+tt.spaceminer.cycle=サイクル距離
+tt.spaceminer.range=サイクル範囲
+tt.spaceminer.step=サイクルの刻み
+tt.spaceminer.filterButtonTooltip=フィルターを開く
+tt.spaceminer.toggleFilter=フィルターの切り替え
+tt.spaceminer.clearFilter=フィルターを消去
+tt.spaceminer.asteroidutilitypanelButtonTooltip=宇宙採掘機のユーティリティパネルを開く
+tt.spaceminer.asteroidButtonTooltipInfo=クリックで詳細を表示！
+tt.spaceminer.asteroidButtonFilter=右クリックで小惑星をフィルターに追加
+tt.spaceminer.textFieldOre=Ore
+tt.spaceminer.textFieldDistance=距離
+tt.spaceminer.textFieldTier=Tier
+tt.spaceminer.calculatorButtonTooltip=宇宙採掘機の計算機を開く
+tt.spaceminer.asteroidutilitypanel.miningDrones=採掘できるドローン:
+tt.spaceminer.asteroidutilitypanel.itemUsage=並列1つにつきそれぞれ4個使います
+tt.spaceminer.asteroidutilitypanel.sizeForDrone=このドローンでの小惑星のサイズ: %d-%d
+tt.spaceminer.asteroidutilitypanel.miningTime=このドローンでの採掘時間: %s秒
+tt.spaceminer.asteroidutilitypanel.distanceRange=見つかる距離: %s%d-%d%s
+tt.spaceminer.asteroidutilitypanel.computation=並列1つにつき%s%d 計算量/秒が必要
+tt.spaceminer.asteroidutilitypanel.moduleTier=Tier %d以上の宇宙採掘モジュールが必要
+tt.spaceminer.asteroidutilitypanel.drops=ドロップ:
+tt.spaceminer.asteroidutilitypanel.targetAsteroidButtonTooltip=この小惑星を対象にする
+tt.spaceminer.calculator.missing.distance=距離の設定がありません！
+tt.spaceminer.calculator.missing.moduleTier=モジュールのTierがありません！
+tt.spaceminer.calculator.missing.drone=ドローンがありません！
+tt.spaceminer.calculator.calculate=計算
+tt.spaceminer.calculator.asteroidChance= %s
+tt.spaceminer.filter.minableAsteroids=現在採掘できる小惑星:
+tt.spaceminer.filter.noValidInputs=有効な入力がありません！
+tt.spaceminer.filter.addOre=クリックでこの鉱石をフィルターに追加
+# Space Pump
+tt.spacepump.batchslider=現在のバッチのレシピ時間を変更します（秒）
+tt.spacepump.rate=毎秒%sを汲み上げ
+tt.spacepump.ratemax=レシピごとに毎秒最大%s
+tt.spacepump.pendingqueue=選択したレシピを確認または変更してください:
+tt.spacepump.planettier=Tier %d:
+tt.spacepump.utilityapply=&a適用&rして既存のレシピを&4上書き&r\n&e空のスロットは実行中のレシピを解除します！
+tt.spacepump.utilityremove=クリックで選択した液体を削除
+tt.spacepump.utilityselected=選択中: &c%s
+tt.spacepump.utilitypanelButtonTooltip=宇宙ポンプのクイックピッカーを開く\n - 任意の&3液体&rを&6クリック&rすると一覧に追加（&a複数可&r）\n - 下のプレビュースロットを&6クリック&rするとスロットを空ける\n - &2適用&rボタンを&6クリック&rすると&3ポンプ&rの設定を変更
+
+# Gui
+tt.gui.tooltip.power_pass=電力パススルー
+tt.gui.tooltip.safe_void=安全な消去
+tt.gui.tooltip.power_switch=電源スイッチ
+tt.gui.tooltip.edit_parameters=パラメータを編集
+tt.gui.tooltip.open_editor=エディターを開く
+tt.gui.parameter.header=パラメータ
+
+tt.gui.tooltip.plasma_module.debug_window=デバッグウィンドウ
+tt.gui.tooltip.plasma_module.debug_window.multi_step=複数ステップ
+tt.gui.tooltip.plasma_module.debug_window.fusion_tier=核融合Tier
+tt.gui.tooltip.plasma_module.debug_window.parallel=並列
+tt.gui.tooltip.uncertainty.value_assist=色覚補助: 16個のセルそれぞれに値を重ねて表示
+
+tt.gui.text.debug.set_mode=クリックで機械を%sに設定
+tt.gui.text.debug.status.inactive=非アクティブ
+tt.gui.text.debug.status.disabled=無効
+
+tt.gui.text.debug_power.status.produce=発電中
+tt.gui.text.debug_power.status.consume=消費中
+tt.gui.text.debug_power.toggle_laser=レーザーモードの切り替え
+
+tt.gui.text.debug_pollutor.pollution=汚染/tick
+tt.gui.text.debug_pollutor.status=状態: %s
+tt.gui.text.debug_pollutor.status.produce=汚染中
+tt.gui.text.debug_pollutor.status.consume=浄化中
+
+tt.gui.text.hatch.uncertainty.status.ok=状態: OK
+tt.gui.text.hatch.uncertainty.status.ng=状態: NG
+
+tt.gui.text.hatch.status=機械の状態: %s
+tt.gui.text.hatch.status.active=稼働中
+tt.gui.text.hatch.status.inactive=非アクティブ
+
+tt.gui.tooltip.full_led_desc.in.id=ID: %s:%s:§bI %s
+tt.gui.tooltip.full_led_desc.out.id=ID: %s:%s:§bO %s
+tt.gui.tooltip.full_led_desc.value=値: §b%s
+tt.gui.tooltip.full_led_desc.unused=未使用
+
+EOH_Controller_PlanetBlock=現在の惑星ブロック: %s
+EOH_Controller_AstralArrayAmount=保管中のアストラルアレイ: %s
+
+EOH.Recipe.Hydrogen.In=水素: %s L
+EOH.Recipe.Helium.In=ヘリウム: %s L
+EOH.Recipe.SpacetimeTier=時空Tier: %s
+EOH.Recipe.EU.Out=EU出力: %s EU
+EOH.Recipe.EU.In=EU入力: %s EU
+EOH.Recipe.BaseRecipeChance=レシピの基本確率: %s%%
+EOH.Recipe.RecipeEnergyEfficiency=レシピのエネルギー効率: %s%%
+EOH.Recipe.Warning=§4§l警告§r: すべてのアイテムが表示されているわけではありません。
+
+gt.blockmachines.dynamo_hatch.wireless=§7ネットワーク全体でエネルギーを最大2^(2^31) EUまで蓄えます。\n§7ケーブルには接続しません。このブロックはネットワークにEUを送り込みます。
+gt.blockmachines.energy_hatch.wireless=§7ネットワーク全体でエネルギーを最大2^(2^31) EUまで蓄えます。\n§7ケーブルには接続しません。このブロックはネットワークからEUを引き出します。
+
+gt.godforgecasing.0.name=特異点強化恒星遮蔽外装
+gt.godforgecasing.1.name=天体物質誘導外装
+gt.godforgecasing.2.name=無限重力切断構造外装
+gt.godforgecasing.3.name=超越増幅磁気閉じ込め外装
+gt.godforgecasing.4.name=恒星エネルギーサイフォン外装
+gt.godforgecasing.5.name=遠隔重力子流モジュレーター
+gt.godforgecasing.6.name=中間重力子流モジュレーター
+gt.godforgecasing.7.name=中央重力子流モジュレーター
+gt.godforgecasing.8.name=調和フォノン伝送導管
+
+# Multiblocks
+gt.blockmachines.multimachine.em.exotic_module.name=ヘリオフュージョン・エキゾチサイザー
+gt.blockmachines.multimachine.em.eye_of_harmony.name=アイ・オブ・ハーモニー
+gt.blockmachines.multimachine.em.forge_of_gods.name=神の鍛造場
+gt.blockmachines.multimachine.em.molten_module.name=ヘリオフラックス・メルティングコア
+gt.blockmachines.multimachine.em.plasma_module.name=ヘリオサーマル・プラズマファブリケーター
+gt.blockmachines.multimachine.em.research.name=総合型研究装置
+gt.blockmachines.multimachine.em.smelting_module.name=ヘリオフレア・パワーフォージ
+gt.blockmachines.multimachine.tm.teslacoil.name=テスラタワー

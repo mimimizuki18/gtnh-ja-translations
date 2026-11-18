@@ -1,0 +1,10 @@
+次元の境界を超越する
+次元の境界を完全に突破して最大効率に達するには{color_time:{var:hours}}時間の連続稼働が必要で、
+燃料消費量を最大{color_amount:{var:max_discount}%}削減します
+{color_danger:待機中は燃料割引が蓄積時の{var:decay_rate}倍の速さで減衰し、蓄えた稼働時間が失われます}
+{hr}
+多次元空間は{color_mode:燃料割引が最大}のときに整列して{color_misc:収束}できます
+必要な安定性のしきい値に達するには、本体に{color_eu_usage:超次元アライメントマトリックス}を入れる必要があります
+{color_misc:次元収束}が有効なときは{color_mechanic:4/4のパーフェクトオーバークロックを行います}
+{color_note:追加の電力コストの代わりに、触媒の量が増加します}
+{hr}

@@ -1,0 +1,20 @@
+{color_name:電極ハッチ}に電極を入れてください
+速度、並列処理数、OC、消費電力は電極によって決まります
+特殊効果を持つ電極もあるので、ツールチップを確認してください
+耐久値が{red:{var:surge_threshold}%}未満になると、{red:{var:surge_chance}%}の確率で{color_danger:アークサージ}が発生します
+各レシピの前にアークを点火します。点火の電力は電極のペナルティと並列処理数に応じて増えます
+作業が終わるとアークを停止します
+{hr}
+{color_mode:高炉モード}:
+{color_name:電気高炉}のレシピを{color_amount:{var:blast_power_multiplier}倍}の電力コストで処理します
+{hr}
+{color_mode:鉱石モード}:
+金属鉱石を溶融金属に加工します
+起動時間: {color_amount:{var:ore_startup_seconds}}秒
+{color_name:入力バス}から鉱石と原石を消費します
+並列処理数をすべて使い切ると、起動はすぐに終了します
+{color_amount:{var:ore_idle_ticks}}tickの間鉱石が入ってこないと、起動はすぐに終了します
+{color_key:溶融金属}を出力します
+{color_note:かまどで製錬できる鉱石のみ対応。高炉が必要なものは不可}
+{hr}
+{color_name:ドライバー}で本体を右クリックするとモードを切り替えます
